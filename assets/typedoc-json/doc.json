@@ -1,6 +1,6 @@
 {
 	"id": 0,
-	"name": "mobius-parametric-modeller - v0.6.2",
+	"name": "mobius-parametric-modeller - v0.7.0",
 	"kind": 0,
 	"flags": {},
 	"children": [
@@ -13,7 +13,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/_parameterTypes.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/_parameterTypes.ts",
 			"children": [
 				{
 					"id": 6206,
@@ -594,7 +594,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_arithmetic.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_arithmetic.ts",
 			"children": [
 				{
 					"id": 6173,
@@ -718,7 +718,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_colors.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_colors.ts",
 			"children": [
 				{
 					"id": 6137,
@@ -976,7 +976,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_constants.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_constants.ts",
 			"children": [
 				{
 					"id": 6150,
@@ -1460,7 +1460,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_conversion.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_conversion.ts",
 			"children": [
 				{
 					"id": 3605,
@@ -1810,7 +1810,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_geometry.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_geometry.ts",
 			"children": [
 				{
 					"id": 6117,
@@ -1963,7 +1963,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_list.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_list.ts",
 			"children": [
 				{
 					"id": 2390,
@@ -3145,7 +3145,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_math.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_math.ts",
 			"children": [
 				{
 					"id": 3590,
@@ -3420,7 +3420,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_mathjs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_mathjs.ts",
 			"children": [
 				{
 					"id": 5858,
@@ -3952,7 +3952,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_plane.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_plane.ts",
 			"children": [
 				{
 					"id": 4142,
@@ -4849,7 +4849,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_rand.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_rand.ts",
 			"children": [
 				{
 					"id": 5998,
@@ -5192,7 +5192,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_ray.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_ray.ts",
 			"children": [
 				{
 					"id": 4104,
@@ -6091,7 +6091,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_set.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_set.ts",
 			"children": [
 				{
 					"id": 6132,
@@ -6361,7 +6361,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_strs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_strs.ts",
 			"children": [
 				{
 					"id": 5975,
@@ -7253,7 +7253,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_types.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_types.ts",
 			"children": [
 				{
 					"id": 5889,
@@ -8076,7 +8076,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_util.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_util.ts",
 			"children": [
 				{
 					"id": 6157,
@@ -8302,7 +8302,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_vec.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_vec.ts",
 			"children": [
 				{
 					"id": 6006,
@@ -10128,7 +10128,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_args.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_args.ts",
 			"children": [
 				{
 					"id": 3439,
@@ -12214,7 +12214,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_attribs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_attribs.ts",
 			"children": [
 				{
 					"id": 3947,
@@ -12612,7 +12612,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_ids.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_ids.ts",
 			"children": [
 				{
 					"id": 3335,
@@ -13076,7 +13076,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_types.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_check_types.ts",
 			"children": [
 				{
 					"id": 3368,
@@ -14234,7 +14234,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_model.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_model.ts",
 			"children": [
 				{
 					"id": 5854,
@@ -14784,7 +14784,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_output.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/_output.ts",
 			"children": [
 				{
 					"id": 6179,
@@ -14882,7 +14882,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/_common.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/_common.ts",
 			"comment": {
 				"shortText": "Shared utility functions\n~\n~"
 			},
@@ -15726,7 +15726,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/analyze.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/analyze.ts",
 			"comment": {
 				"shortText": "The `analysis` module has functions for performing various types of analysis with entities in the model.\nThese functions all return dictionaries containing the results of the analysis."
 			},
@@ -21765,7 +21765,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/attrib.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/attrib.ts",
 			"comment": {
 				"shortText": "The `attrib` module has functions for working with attributes in teh model.\nNote that attributes can also be set and retrieved using the \"@\" symbol.\n~\n~"
 			},
@@ -24334,7 +24334,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/calc.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/calc.ts",
 			"comment": {
 				"shortText": "The `calc` module has functions for performing various types of calculations with entities in the model.\nThese functions neither make nor modify anything in the model.\nThese functions all return either numbers or lists of numbers."
 			},
@@ -27203,7 +27203,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/collection.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/collection.ts",
 			"comment": {
 				"shortText": "The `collections` module has functions for creating and modifying collections."
 			},
@@ -28078,7 +28078,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/dict.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/dict.ts",
 			"comment": {
 				"shortText": "The `dict` module has functions for working with dictionaries.\nThese functions have no direct link with the model, the are generic functions for manipulating dictionaries.\nThese functions neither make nor modify anything in the model.\nIn addition to these functions, there are also inline functions available for working with dictionaries."
 			},
@@ -28388,7 +28388,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/edit.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/edit.ts",
 			"comment": {
 				"shortText": "The `edit` module has functions for editing entities in the model.\nThese function modify the topology of objects: vertices, edges, wires and faces.\nThese functions return the IDs of the entities that are created or modified."
 			},
@@ -29536,7 +29536,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/intersect.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/intersect.ts",
 			"comment": {
 				"shortText": "The `intersect` module has functions for calculating intersections between different types of entities."
 			},
@@ -29952,7 +29952,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/io.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/io.ts",
 			"comment": {
 				"shortText": "The `io` module has functions for importing and exporting."
 			},
@@ -31594,7 +31594,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/isect.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/isect.ts",
 			"comment": {
 				"shortText": "The `isect` module has functions for performing intersections between entities in the model.\nThese functions may make new entities, and may modify existing entities, depending on the function that is selected.\nIf new entities are created, then the function will return the IDs of those entities."
 			},
@@ -32011,7 +32011,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/list.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/list.ts",
 			"comment": {
 				"shortText": "The `list` module has functions for working with lists of items.\nThese functions have no direct link with the model, the are generic functions for manipulating lists.\nThe functions are often used when manipulating lists of IDs of entities in the model.\nThese functions neither make nor modify anything in the model.\nIn addition to these functions, there are also various inline functions available for working with lists."
 			},
@@ -33336,7 +33336,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/make.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/make.ts",
 			"comment": {
 				"shortText": "The `make` module has functions for making new entities in the model.\nAll these functions return the IDs of the entities that are created."
 			},
@@ -35193,7 +35193,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/material.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/material.ts",
 			"comment": {
 				"shortText": "The `material` module has functions for defining materials.\nThe material definitions are saved as attributes at the model level.\nFor more informtion, see the threejs docs: https://threejs.org/"
 			},
@@ -36814,7 +36814,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/modify.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/modify.ts",
 			"comment": {
 				"shortText": "The `modify` module has functions for modifying existing entities in the model.\nThese functions do not make any new entities, and they do not change the topology of objects.\nThese functions only change attribute values.\nAll these functions have no return value."
 			},
@@ -37759,7 +37759,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/pattern.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/pattern.ts",
 			"comment": {
 				"shortText": "The `pattern` module has functions for creating patters of positions in the model.\nAll these functions all return lists of position IDs.\nThe list may be nested, depending on which function is selected."
 			},
@@ -39912,7 +39912,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/poly2d.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/poly2d.ts",
 			"comment": {
 				"shortText": "The `poly2D` module has a set of functions for working with 2D polygons, on the XY plane."
 			},
@@ -44219,7 +44219,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/query.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/query.ts",
 			"comment": {
 				"shortText": "The `query` module has functions for querying entities in the the model.\nMost of these functions all return a list of IDs of entities in the model.\n~\n~"
 			},
@@ -47685,7 +47685,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/util.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/util.ts",
 			"comment": {
 				"shortText": "The `util` module has some utility functions used for debugging."
 			},
@@ -49073,7 +49073,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/visualize.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/basic/visualize.ts",
 			"comment": {
 				"shortText": "The `visualize` module has functions for defining various settings for the 3D viewer.\nColor is saved as vertex attributes."
 			},
@@ -51481,7 +51481,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/categorization.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/categorization.ts",
 			"children": [
 				{
 					"id": 5823,
@@ -51608,7 +51608,7 @@
 			"flags": {
 				"isExported": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/index.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/modules/index.ts",
 			"sources": [
 				{
 					"fileName": "core/modules/index.ts",
@@ -51626,7 +51626,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/filesys/download.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/filesys/download.ts",
 			"children": [
 				{
 					"id": 4641,
@@ -51716,7 +51716,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIMetaData.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIMetaData.ts",
 			"children": [
 				{
 					"id": 3182,
@@ -53311,7 +53311,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModel.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModel.ts",
 			"children": [
 				{
 					"id": 3267,
@@ -54448,7 +54448,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModelComparator.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModelComparator.ts",
 			"children": [
 				{
 					"id": 2149,
@@ -56412,7 +56412,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModelData.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModelData.ts",
 			"children": [
 				{
 					"id": 2802,
@@ -57489,7 +57489,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModelThreejs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/GIModelThreejs.ts",
 			"children": [
 				{
 					"id": 2263,
@@ -57723,7 +57723,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/ThreejsJSON.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/ThreejsJSON.ts",
 			"children": [
 				{
 					"id": 2244,
@@ -58265,7 +58265,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapBase.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapBase.ts",
 			"children": [
 				{
 					"id": 2859,
@@ -60211,7 +60211,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapBool.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapBool.ts",
 			"children": [
 				{
 					"id": 1204,
@@ -62595,7 +62595,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapDict.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapDict.ts",
 			"children": [
 				{
 					"id": 1654,
@@ -64904,7 +64904,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapList.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapList.ts",
 			"children": [
 				{
 					"id": 1544,
@@ -67213,7 +67213,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapNum.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapNum.ts",
 			"children": [
 				{
 					"id": 1434,
@@ -69522,7 +69522,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapStr.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attrib_classes/GIAttribMapStr.ts",
 			"children": [
 				{
 					"id": 1319,
@@ -71908,7 +71908,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribs.ts",
 			"children": [
 				{
 					"id": 2103,
@@ -72880,7 +72880,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsAdd.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsAdd.ts",
 			"children": [
 				{
 					"id": 1764,
@@ -73247,7 +73247,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsDel.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsDel.ts",
 			"children": [
 				{
 					"id": 1937,
@@ -73537,7 +73537,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsGetVal.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsGetVal.ts",
 			"children": [
 				{
 					"id": 1951,
@@ -74356,7 +74356,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsImpExp.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsImpExp.ts",
 			"children": [
 				{
 					"id": 1917,
@@ -74766,7 +74766,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsMerge.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsMerge.ts",
 			"children": [
 				{
 					"id": 1819,
@@ -75177,7 +75177,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsPosis.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsPosis.ts",
 			"children": [
 				{
 					"id": 2055,
@@ -75617,7 +75617,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsPush.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsPush.ts",
 			"children": [
 				{
 					"id": 2079,
@@ -76051,7 +76051,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsQuery.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsQuery.ts",
 			"children": [
 				{
 					"id": 1783,
@@ -76694,7 +76694,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsSetVal.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsSetVal.ts",
 			"children": [
 				{
 					"id": 1995,
@@ -77684,7 +77684,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsSnapshot.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsSnapshot.ts",
 			"children": [
 				{
 					"id": 1842,
@@ -78060,7 +78060,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsThreejs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/attribs/GIAttribsThreejs.ts",
 			"children": [
 				{
 					"id": 1866,
@@ -79003,7 +79003,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/common.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/common.ts",
 			"children": [
 				{
 					"id": 3053,
@@ -84681,7 +84681,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/common_func.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/common_func.ts",
 			"children": [
 				{
 					"id": 855,
@@ -85130,7 +85130,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/common_id_funcs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/common_id_funcs.ts",
 			"children": [
 				{
 					"id": 2274,
@@ -86035,7 +86035,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsCommon.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsCommon.ts",
 			"children": [
 				{
 					"id": 2318,
@@ -86900,7 +86900,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsEdit.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsEdit.ts",
 			"children": [
 				{
 					"id": 2701,
@@ -88111,7 +88111,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsMake.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsMake.ts",
 			"children": [
 				{
 					"id": 2458,
@@ -91827,7 +91827,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsModify.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/funcs/GIFuncsModify.ts",
 			"children": [
 				{
 					"id": 2762,
@@ -92538,7 +92538,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeom.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeom.ts",
 			"children": [
 				{
 					"id": 1163,
@@ -93679,7 +93679,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomAdd.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomAdd.ts",
 			"children": [
 				{
 					"id": 318,
@@ -95361,7 +95361,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomCheck.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomCheck.ts",
 			"children": [
 				{
 					"id": 582,
@@ -95865,7 +95865,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomColls.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomColls.ts",
 			"children": [
 				{
 					"id": 1137,
@@ -96333,7 +96333,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomCompare.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomCompare.ts",
 			"children": [
 				{
 					"id": 608,
@@ -96729,7 +96729,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomDelVert.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomDelVert.ts",
 			"children": [
 				{
 					"id": 812,
@@ -97471,7 +97471,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomEditPgon.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomEditPgon.ts",
 			"children": [
 				{
 					"id": 642,
@@ -97895,7 +97895,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomEditPline.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomEditPline.ts",
 			"children": [
 				{
 					"id": 628,
@@ -98174,7 +98174,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomEditTopo.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomEditTopo.ts",
 			"children": [
 				{
 					"id": 449,
@@ -98899,7 +98899,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomImpExp.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomImpExp.ts",
 			"children": [
 				{
 					"id": 1095,
@@ -99238,7 +99238,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomNav.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomNav.ts",
 			"children": [
 				{
 					"id": 664,
@@ -101715,7 +101715,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomNavTri.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomNavTri.ts",
 			"children": [
 				{
 					"id": 1111,
@@ -102219,7 +102219,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomQuery.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomQuery.ts",
 			"children": [
 				{
 					"id": 491,
@@ -103842,7 +103842,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomSnapshot.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomSnapshot.ts",
 			"children": [
 				{
 					"id": 879,
@@ -106929,7 +106929,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomThreejs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/geom/GIGeomThreejs.ts",
 			"children": [
 				{
 					"id": 1065,
@@ -107642,7 +107642,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/io/io_geojson.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/io/io_geojson.ts",
 			"children": [
 				{
 					"id": 4547,
@@ -109112,7 +109112,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/io/io_obj.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geo-info/io/io_obj.ts",
 			"children": [
 				{
 					"id": 4509,
@@ -109808,7 +109808,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/constants.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/constants.ts",
 			"children": [
 				{
 					"id": 3619,
@@ -109908,7 +109908,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/distance.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/distance.ts",
 			"children": [
 				{
 					"id": 2667,
@@ -110540,7 +110540,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/intersect.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/intersect.ts",
 			"children": [
 				{
 					"id": 6084,
@@ -111102,7 +111102,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/matrix.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/matrix.ts",
 			"children": [
 				{
 					"id": 2359,
@@ -111567,7 +111567,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/mesh.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/mesh.ts",
 			"children": [
 				{
 					"id": 3623,
@@ -111790,7 +111790,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/triangle.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/triangle.ts",
 			"children": [
 				{
 					"id": 183,
@@ -112038,7 +112038,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/vectors.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/geom/vectors.ts",
 			"children": [
 				{
 					"id": 212,
@@ -113634,7 +113634,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/triangulate/earcut.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/triangulate/earcut.ts",
 			"children": [
 				{
 					"id": 171,
@@ -115648,7 +115648,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/triangulate/threex.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/triangulate/threex.ts",
 			"children": [
 				{
 					"id": 2,
@@ -116085,7 +116085,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/triangulate/triangulate.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/triangulate/triangulate.ts",
 			"children": [
 				{
 					"id": 197,
@@ -116383,7 +116383,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/util/arrs.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/util/arrs.ts",
 			"children": [
 				{
 					"id": 417,
@@ -116962,7 +116962,7 @@
 				"isExported": true,
 				"isExternal": true
 			},
-			"originalName": "C:/Users/akibdpt/Documents/Angular/mobius-parametric-modeller-dev-0-7/src/assets/libs/util/maps.ts",
+			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/libs/util/maps.ts",
 			"children": [
 				{
 					"id": 1862,

@@ -216,11 +216,11 @@ export class GIAttribsThreejs {
      */
     public getEntSubAttribsForTable(ssid: number, ent_type: EEntType, ent_i: number, level: EEntType): Array<Map< string, TAttribDataTypes >> {
         const data: Array<Map< string, TAttribDataTypes >> = [];
-        const attribs_maps_key: string = EEntTypeStr[ent_type];
-        const attribs: Map<string, GIAttribMapBase> = this.modeldata.attribs.attribs_maps.get(ssid)[attribs_maps_key];
-        const data_headers: Map< string, TAttribDataTypes > = new Map();
-        attribs.forEach( (attrib, attrib_name) => data_headers.set(attrib_name, attrib.getDataType()) );
-        data.push(data_headers);
+        // const attribs_maps_key: string = EEntTypeStr[level];
+        // const attribs: Map<string, GIAttribMapBase> = this.modeldata.attribs.attribs_maps.get(ssid)[attribs_maps_key];
+        // const data_headers: Map< string, TAttribDataTypes > = new Map();
+        // attribs.forEach( (attrib, attrib_name) => data_headers.set(attrib_name, attrib.getDataType()) );
+        // data.push(data_headers);
         data.push(this._addEntSubAttribs(ssid, ent_type, ent_i, level));
         switch (ent_type) {
             case EEntType.COLL:
@@ -285,16 +285,16 @@ export class GIAttribsThreejs {
             if (attrib_value && attrib_value.constructor === {}.constructor) {
                 data_map.set(`${attrib_name}`, JSON.stringify(attrib_value));
             } else if ( data_size > 1 ) {
-                // if (attrib_value === undefined) {
-                //     for (let idx = 0; idx < data_size; idx++) {
-                //         data_map.set(`${attrib_name}[${idx}]`] = undefined;
-                //     }
-                // } else {
+                if (attrib_value === undefined) {
+                    for (let idx = 0; idx < data_size; idx++) {
+                        data_map.set(`${attrib_name}[${idx}]`, undefined);
+                    }
+                } else {
                     (attrib_value as TAttribDataTypes[]).forEach( (v, idx) => {
                         const _v =  v;
                         data_map.set(`${attrib_name}[${idx}]`,  _v);
                     });
-                // }
+                }
             } else {
                 if (ent_type === EEntType.POSI && Array.isArray(attrib_value)) {
                     if (attrib_name === 'xyz') {
