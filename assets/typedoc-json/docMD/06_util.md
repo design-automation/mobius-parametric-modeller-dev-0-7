@@ -1,24 +1,10 @@
 # UTIL    
 
-## SelectGeometry  
-* **Description:** Select entities in the GI viewer  
+## SelectEntities  
+* **Description:** Select entities in the model.  
 * **Parameters:**  
-  * *ents_id:* undefined  
+  * *entities:* undefined  
 * **Returns:** void  
-  
-## ModelPurge  
-* **Description:** Removes all deleted entities from the model.
-The IDs of other entities may change as a result.
-~
-For example, if 'pg0' was deleted and 'pg1' still exists, then after purge
-'pg1' will get renumbered, and will get the ID 'pg0'.  
-* **Parameters:**  
-* **Returns:** void  
-  
-## ModelInfo  
-* **Description:** Returns an html string representation of the contents of this model  
-* **Parameters:**  
-* **Returns:** Text that summarises what is in the model, click print to see this text.  
   
 ## ParamInfo  
 * **Description:** Returns am html string representation of the parameters in this model  
@@ -32,25 +18,15 @@ For example, if 'pg0' was deleted and 'pg1' still exists, then after purge
   * *entities:* One or more objects ot collections.  
 * **Returns:** void  
   
-## ExportIO  
-* **Description:** Export data from the model as a file.
-This will result in a popup in your browser, asking you to save the filel.  
+## ModelInfo  
+* **Description:** Returns an html string representation of the contents of this model  
 * **Parameters:**  
-  * *__console__:* undefined  
-  * *__fileName__:* undefined  
-  * *file_name:* Name of the file as a string.  
-  * *exportParams:* Enum.  
-  * *exportContent:* Enum.  
-* **Returns:** Boolean.  
-* **Examples:**  
-  * util.ExportIO('my_model.json')  
-    Exports all the data in the model as an OBJ.
+* **Returns:** Text that summarises what is in the model, click print to see this text.  
   
-  
-## convertString  
-* **Description:** undefined  
+## ModelCheck  
+* **Description:** Check the internal consistency of the model.  
 * **Parameters:**  
-  * *value:* undefined  
+* **Returns:** Text that summarises what is in the model, click print to see this text.  
   
 ## ModelCompare  
 * **Description:** Compare the GI data in this model to the GI data in another model.
@@ -68,11 +44,6 @@ In the latter case, you do not specify a path, you just specify the file name, e
   * *input_data:* The location of the GI Model to compare this model to.  
   * *method:* Enum, method used to compare this model to the other model specified in the gi_model parameter.  
 * **Returns:** Text that summarises the comparison between the two models.  
-  
-## ModelCheck  
-* **Description:** Check the internal consistency of the model.  
-* **Parameters:**  
-* **Returns:** Text that summarises what is in the model, click print to see this text.  
   
 ## SendData  
 * **Description:** Post a message to the parent window.  
