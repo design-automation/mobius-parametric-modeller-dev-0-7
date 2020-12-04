@@ -1,7 +1,13 @@
 # MAKE    
 
 ## Position  
-* **Description:** Adds one or more new position to the model.  
+* **Description:** Adds one or more new position to the model.
+~
+  * 1
+~
+  * xxxxaaa
+~
+  * xxxxxz  
 * **Parameters:**  
   * *coords:* A list of three numbers, or a list of lists of three numbers.  
 * **Returns:** A new position, or nested list of new positions.  
