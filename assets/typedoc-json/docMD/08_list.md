@@ -20,7 +20,7 @@
   
 ## Remove  
 * **Description:** Removes items in a list.
-~
+\n
 If @param method is set to 'index', then @param item should be the index of the item to be replaced.
 Negative indexes are allowed.
 If @param method is not set to 'index', then @param item should be the value.  
@@ -32,7 +32,7 @@ If @param method is not set to 'index', then @param item should be the value.
   
 ## Replace  
 * **Description:** Replaces items in a list.
-~
+\n
 If @param method is set to 'index', then @param old_item should be the index of the item to be replaced. Negative indexes are allowed.
 If @param method is not set to 'index', then @param old_item should be the value.  
 * **Parameters:**  
@@ -44,7 +44,7 @@ If @param method is not set to 'index', then @param old_item should be the value
   
 ## Sort  
 * **Description:** Sorts an list, based on the values of the items in the list.
-~
+\n
 For alphabetical sort, values are sorted character by character,
 numbers before upper case alphabets, upper case alphabets before lower case alphabets.  
 * **Parameters:**  
@@ -62,7 +62,7 @@ Expected value of list is [6,48,56].
   
 ## Splice  
 * **Description:** Removes and inserts items in a list.
-~
+\n
 If no items_to_add are specified, then items are only removed.
 If num_to_remove is 0, then values are only inserted.  
 * **Parameters:**  

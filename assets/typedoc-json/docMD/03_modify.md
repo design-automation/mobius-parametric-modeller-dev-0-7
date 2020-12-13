@@ -2,14 +2,14 @@
 
 ## Move  
 * **Description:** Moves entities. The directio and distance if movement is specified as a vector.
-~
+\n
 If only one vector is given, then all entities are moved by the same vector.
 If a list of vectors is given, the each entity will be moved by a different vector.
 In this case, the number of vectors should be equal to the number of entities.
-~
+\n
 If a position is shared between entites that are being moved by different vectors,
 then the position will be moved by the average of the vectors.
-~  
+\n  
 * **Parameters:**  
   * *entities:* An entity or list of entities to move.  
   * *vectors:* undefined  
@@ -25,13 +25,13 @@ then the position will be moved by the average of the vectors.
   
 ## Rotate  
 * **Description:** Rotates entities on plane by angle.
-~  
+\n  
 * **Parameters:**  
   * *entities:* An entity or list of entities to rotate.  
-  * *ray:* A ray to rotate around. \
-Given a plane, a ray will be created from the plane z axis. \
-Given an `xyz` location, a ray will be generated with an origin at this location, and a direction `[0, 0, 1]`. \
-Given any entities, the centroid will be extracted, \
+  * *ray:* A ray to rotate around. \n
+Given a plane, a ray will be created from the plane z axis. \n
+Given an `xyz` location, a ray will be generated with an origin at this location, and a direction `[0, 0, 1]`. \n
+Given any entities, the centroid will be extracted, \n
 and a ray will be generated with an origin at this centroid, and a direction `[0, 0, 1]`.  
   * *angle:* Angle (in radians).  
 * **Returns:** void  
@@ -42,13 +42,13 @@ and a ray will be generated with an origin at this centroid, and a direction `[0
   
 ## Scale  
 * **Description:** Scales entities relative to a plane.
-~  
+\n  
 * **Parameters:**  
   * *entities:* An entity or list of entities to scale.  
-  * *plane:* A plane to scale around. \
-Given a ray, a plane will be generated that is perpendicular to the ray. \
-Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \
-Given any entities, the centroid will be extracted, \
+  * *plane:* A plane to scale around. \n
+Given a ray, a plane will be generated that is perpendicular to the ray. \n
+Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \n
+Given any entities, the centroid will be extracted, \n
 and a plane will be generated with an origin at the centroid, and with axes parallel to the global axes.  
   * *scale:* Scale factor, a single number to scale equally, or [scale_x, scale_y, scale_z] relative to the plane.  
 * **Returns:** void  
@@ -61,13 +61,13 @@ and a plane will be generated with an origin at the centroid, and with axes para
   
 ## Mirror  
 * **Description:** Mirrors entities across a plane.
-~  
+\n  
 * **Parameters:**  
   * *entities:* An entity or list of entities to mirros.  
-  * *plane:* A plane to scale around. \
-Given a ray, a plane will be generated that is perpendicular to the ray. \
-Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \
-Given any entities, the centroid will be extracted, \
+  * *plane:* A plane to scale around. \n
+Given a ray, a plane will be generated that is perpendicular to the ray. \n
+Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \n
+Given any entities, the centroid will be extracted, \n
 and a plane will be generated with an origin at the centroid, and with axes parallel to the global axes.  
 * **Returns:** void  
 * **Examples:**  
@@ -77,18 +77,18 @@ and a plane will be generated with an origin at the centroid, and with axes para
   
 ## XForm  
 * **Description:** Transforms entities from a source plane to a target plane.
-~  
+\n  
 * **Parameters:**  
   * *entities:* Vertex, edge, wire, face, position, point, polyline, polygon, collection.  
-  * *from_plane:* Plane defining source plane for the transformation. \
-Given a ray, a plane will be generated that is perpendicular to the ray. \
-Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \
-Given any entities, the centroid will be extracted, \
+  * *from_plane:* Plane defining source plane for the transformation. \n
+Given a ray, a plane will be generated that is perpendicular to the ray. \n
+Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \n
+Given any entities, the centroid will be extracted, \n
 and a plane will be generated with an origin at the centroid, and with axes parallel to the global axes.  
-  * *to_plane:* Plane defining target plane for the transformation. \
-Given a ray, a plane will be generated that is perpendicular to the ray. \
-Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \
-Given any entities, the centroid will be extracted, \
+  * *to_plane:* Plane defining target plane for the transformation. \n
+Given a ray, a plane will be generated that is perpendicular to the ray. \n
+Given an `xyz` location, a plane will be generated with an origin at that location and with axes parallel to the global axes. \n
+Given any entities, the centroid will be extracted, \n
 and a plane will be generated with an origin at the centroid, and with axes parallel to the global axes.  
 * **Returns:** void  
 * **Examples:**  
@@ -98,7 +98,7 @@ and a plane will be generated with an origin at the centroid, and with axes para
   
 ## Offset  
 * **Description:** Offsets wires.
-~  
+\n  
 * **Parameters:**  
   * *entities:* Edges, wires, faces, polylines, polygons, collections.  
   * *dist:* The distance to offset by, can be either positive or negative  
@@ -110,12 +110,12 @@ and a plane will be generated with an origin at the centroid, and with axes para
   
 ## Remesh  
 * **Description:** Remesh a face or polygon.
-~
+\n
 When a face or polygon is deformed, the triangles that make up that face will sometimes become incorrect.
 Remeshing will regenerate the triangulated mesh for the face.
 Remeshing is not performed automatically as it would degrade performance.
 Instead, it is left up to the user to remesh only when it is actually required.
-~  
+\n  
 * **Parameters:**  
   * *entities:* Single or list of faces, polygons, collections.  
 * **Returns:** void  

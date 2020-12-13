@@ -3,12 +3,12 @@
 ## Get  
 * **Description:** Get entities from a list of entities.
 For example, you can get the position entities from a list of polygon entities.
-~
+\n
 The result will always be a list of entities, even if there is only one entity.
 In a case where you want only one entity, remember to get the first item in the list.
-~
+\n
 The resulting list of entities will not contain duplicate entities.
-~  
+\n  
 * **Parameters:**  
   * *ent_type_enum:* Enum, the type of entity to get.  
   * *entities:* Optional, list of entities to get entities from, or null to get all entities in the model.  
@@ -20,10 +20,10 @@ The resulting list of entities will not contain duplicate entities.
   
 ## Filter  
 * **Description:** Filter a list of entities based on an attribute value.
-~
+\n
 The result will always be a list of entities, even if there is only one entity.
 In a case where you want only one entity, remember to get the first item in the list.
-~  
+\n  
 * **Parameters:**  
   * *entities:* List of entities to filter. The entities must all be of the same type  
   * *attrib:* The attribute to use for filtering. Can be `name`, `[name, index]`, or `[name, key]`.  
@@ -34,11 +34,11 @@ In a case where you want only one entity, remember to get the first item in the 
 ## Invert  
 * **Description:** Returns a list of entities that are not part of the specified entities.
 For example, you can get the position entities that are not part of a list of polygon entities.
-~
+\n
 This function does the opposite of query.Get().
 While query.Get() gets entities that are part of of the list of entities,
 this function gets the entities that are not part of the list of entities.
-~  
+\n  
 * **Parameters:**  
   * *ent_type_enum:* Enum, specifies what type of entities will be returned.  
   * *entities:* List of entities to be excluded.  
@@ -50,9 +50,9 @@ this function gets the entities that are not part of the list of entities.
   
 ## Sort  
 * **Description:** Sorts entities based on an attribute.
-~
+\n
 If the attribute is a list, and index can also be specified as follows: #@name1[index].
-~  
+\n  
 * **Parameters:**  
   * *entities:* List of two or more entities to be sorted, all of the same entity type.  
   * *attrib:* Attribute name to use for sorting. Can be `name`, `[name, index]`, or `[name, key]`.  
@@ -66,7 +66,7 @@ If the attribute is a list, and index can also be specified as follows: #@name1[
 ## Perimeter  
 * **Description:** Returns a list of perimeter entities. In order to qualify as a perimeter entity,
 entities must be part of the set of input entities and must have naked edges.
-~  
+\n  
 * **Parameters:**  
   * *ent_type:* Enum, select the type of perimeter entities to return  
   * *entities:* List of entities.  
@@ -79,7 +79,7 @@ entities must be part of the set of input entities and must have naked edges.
 ## Neighbor  
 * **Description:** Returns a list of neighboring entities. In order to qualify as a neighbor,
 entities must not be part of the set of input entities, but must be welded to one or more entities in the input.
-~  
+\n  
 * **Parameters:**  
   * *ent_type_enum:* Enum, select the types of neighbors to return  
   * *entities:* List of entities.  
@@ -91,14 +91,14 @@ entities must not be part of the set of input entities, but must be welded to on
   
 ## Type  
 * **Description:** Checks the type of an entity.
-~
+\n
 For is_used_posi, returns true if the entity is a posi, and it is used by at least one vertex.
 For is_unused_posi, it returns the opposite of is_used_posi.
 For is_object, returns true if the entity is a point, a polyline, or a polygon.
 For is_topology, returns true if the entity is a vertex, an edge, a wire, or a face.
 For is_point_topology, is_polyline_topology, and is_polygon_topology, returns true
 if the entity is a topological entity, and it is part of an object of the specified type.
-~
+\n
 For is_open, returns true if the entity is a wire or polyline and is open. For is_closed, it returns the opposite of is_open.
 For is_hole, returns ture if the entity is a wire, and it defines a hole in a face.
 For has_holes, returns true if the entity is a face or polygon, and it has holes.
