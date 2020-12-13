@@ -242,11 +242,11 @@ export class GIGeomSnapshot {
      */
     public getAllEntSets(ssid: number): IEntSets {
         const ent_sets: IEntSets = {
-            ps: this.ss_data.get(ssid)[EEntTypeStr[EEntType.POSI]],
-            pt: this.ss_data.get(ssid)[EEntTypeStr[EEntType.POINT]],
-            pl: this.ss_data.get(ssid)[EEntTypeStr[EEntType.PLINE]],
-            pg: this.ss_data.get(ssid)[EEntTypeStr[EEntType.PGON]],
-            co: this.ss_data.get(ssid)[EEntTypeStr[EEntType.COLL]],
+            ps: this.ss_data.get(ssid).ps,
+            pt: this.ss_data.get(ssid).pt,
+            pl: this.ss_data.get(ssid).pl,
+            pg: this.ss_data.get(ssid).pg,
+            co: this.ss_data.get(ssid).co,
         };
         return ent_sets;
     }
@@ -354,7 +354,7 @@ export class GIGeomSnapshot {
      * ~
      * Used for deleting all entities and for adding global function entities to a snapshot.
      */
-    public getSubEntsSets(ssid: number, ents: TEntTypeIdx[], incl_topo = false): IEntSets {
+    public getSubEntsSets(ssid: number, ents: TEntTypeIdx[]): IEntSets {
         const ent_sets: IEntSets = {
             ps: new Set(),
             obj_ps: new Set(),
@@ -394,56 +394,59 @@ export class GIGeomSnapshot {
             }
         }
         // now get all the posis of the objs and add them to the list
-        // also add topo if incl_topo is true
-        if (incl_topo) {
-            ent_sets._v = new Set();
-            ent_sets._e = new Set();
-            ent_sets._w = new Set();
-            ent_sets._t = new Set();
-        }
         ent_sets.pt.forEach( point_i => {
             const posis_i: number[] = this.modeldata.geom.nav.navAnyToPosi(EEntType.POINT, point_i);
             posis_i.forEach( posi_i => {
                 ent_sets.obj_ps.add(posi_i);
             });
-            if (incl_topo) {
-                ent_sets._v.add(this.modeldata.geom.nav.navPointToVert(point_i) );
-            }
         });
         ent_sets.pl.forEach( pline_i => {
             const posis_i: number[] = this.modeldata.geom.nav.navAnyToPosi(EEntType.PLINE, pline_i);
             posis_i.forEach( posi_i => {
                 ent_sets.obj_ps.add(posi_i);
             });
-            if (incl_topo) {
-                const wire_i: number = this.modeldata.geom.nav.navPlineToWire(pline_i);
-                const edges_i: number[] = this.modeldata.geom.nav.navWireToEdge(wire_i);
-                const verts_i: number[] = this.modeldata.geom.query.getWireVerts(wire_i);
-                ent_sets._w.add(wire_i);
-                edges_i.forEach( edge_i => ent_sets._e.add(edge_i) );
-                verts_i.forEach( vert_i => ent_sets._v.add(vert_i) );
-            }
         });
         ent_sets.pg.forEach( pgon_i => {
             const posis_i: number[] = this.modeldata.geom.nav.navAnyToPosi(EEntType.PGON, pgon_i);
             posis_i.forEach( posi_i => {
                 ent_sets.obj_ps.add(posi_i);
             });
-            if (incl_topo) {
-                const wires_i: number[] = this.modeldata.geom.nav.navPgonToWire(pgon_i);
-                wires_i.forEach( wire_i => {
-                    ent_sets._w.add(wire_i);
-                    const edges_i: number[] = this.modeldata.geom.nav.navWireToEdge(wire_i);
-                    const verts_i: number[] = this.modeldata.geom.query.getWireVerts(wire_i);
-                    edges_i.forEach( edge_i => ent_sets._e.add(edge_i) );
-                    verts_i.forEach( vert_i => ent_sets._v.add(vert_i) );
-                });
-                const tris_i: number[] = this.modeldata.geom.nav_tri.navPgonToTri(pgon_i);
-                tris_i.forEach( tri_i => ent_sets._t.add(tri_i) );
-            }
         });
         // return the result
         return ent_sets;
+    }
+    /**
+     *
+     * @param ent_sets
+     */
+    public addTopoToSubEntsSets(ent_sets: IEntSets): void {
+        ent_sets._v = new Set();
+        ent_sets._e = new Set();
+        ent_sets._w = new Set();
+        ent_sets._t = new Set();
+        ent_sets.pt.forEach( point_i => {
+            ent_sets._v.add(this.modeldata.geom.nav.navPointToVert(point_i) );
+        });
+        ent_sets.pl.forEach( pline_i => {
+            const wire_i: number = this.modeldata.geom.nav.navPlineToWire(pline_i);
+            const edges_i: number[] = this.modeldata.geom.nav.navWireToEdge(wire_i);
+            const verts_i: number[] = this.modeldata.geom.query.getWireVerts(wire_i);
+            ent_sets._w.add(wire_i);
+            edges_i.forEach( edge_i => ent_sets._e.add(edge_i) );
+            verts_i.forEach( vert_i => ent_sets._v.add(vert_i) );
+        });
+        ent_sets.pg.forEach( pgon_i => {
+            const wires_i: number[] = this.modeldata.geom.nav.navPgonToWire(pgon_i);
+            wires_i.forEach( wire_i => {
+                ent_sets._w.add(wire_i);
+                const edges_i: number[] = this.modeldata.geom.nav.navWireToEdge(wire_i);
+                const verts_i: number[] = this.modeldata.geom.query.getWireVerts(wire_i);
+                edges_i.forEach( edge_i => ent_sets._e.add(edge_i) );
+                verts_i.forEach( vert_i => ent_sets._v.add(vert_i) );
+            });
+            const tris_i: number[] = this.modeldata.geom.nav_tri.navPgonToTri(pgon_i);
+            tris_i.forEach( tri_i => ent_sets._t.add(tri_i) );
+        });
     }
     // ============================================================================
     // Delete geometry locally
@@ -644,17 +647,17 @@ export class GIGeomSnapshot {
             // remove the coll from points
             const set_points_i: Set<number> = this.ss_data.get(ssid).co_pt.get(coll_i);
             if (set_points_i !== undefined) {
-                set_points_i.forEach( point_i => this.ss_data.get(ssid).pt_co.get(coll_i).delete(point_i) );
+                set_points_i.forEach( point_i => this.ss_data.get(ssid).pt_co.get(point_i).delete(coll_i) );
             }
             // remove the coll from plines
             const set_plines_i: Set<number> = this.ss_data.get(ssid).co_pl.get(coll_i);
             if (set_plines_i !== undefined) {
-                set_plines_i.forEach( pline_i => this.ss_data.get(ssid).pl_co.get(coll_i).delete(pline_i) );
+                set_plines_i.forEach( pline_i => this.ss_data.get(ssid).pl_co.get(pline_i).delete(coll_i) );
             }
             // remove the coll from pgons
             const set_pgons_i: Set<number> = this.ss_data.get(ssid).co_pg.get(coll_i);
             if (set_pgons_i !== undefined) {
-                set_pgons_i.forEach( pgon_i => this.ss_data.get(ssid).pg_co.get(coll_i).delete(pgon_i) );
+                set_pgons_i.forEach( pgon_i => this.ss_data.get(ssid).pg_co.get(pgon_i).delete(coll_i) );
             }
             // remove the coll from children (the children no longer have this coll as a parent)
             const set_childs_i: Set<number> = this.ss_data.get(ssid).co_ch.get(coll_i);
@@ -1009,12 +1012,36 @@ export class GIGeomSnapshot {
     // Debug
     // ============================================================================
     public toStr(ssid: number): string {
+        // data.pt_co = new Map();
+        // data.pl_co = new Map();
+        // data.pg_co = new Map();
+        // // coll -> obj
+        // data.co_pt = new Map();
+        // data.co_pl = new Map();
+        // data.co_pg = new Map();
+        // // coll data
+        // data.co_ch = new Map();
+        // data.co_pa = new Map();
         return JSON.stringify([
             'posis', Array.from(this.ss_data.get(ssid).ps),
             'points', Array.from(this.ss_data.get(ssid).pt),
             'plines', Array.from(this.ss_data.get(ssid).pl),
             'pgons', Array.from(this.ss_data.get(ssid).pg),
             'colls', Array.from(this.ss_data.get(ssid).co),
+            'pt_co', this._mapSetToStr(this.ss_data.get(ssid).pt_co),
+            'pl_co', this._mapSetToStr(this.ss_data.get(ssid).pl_co),
+            'pg_co', this._mapSetToStr(this.ss_data.get(ssid).pg_co),
+            'co_pt', this._mapSetToStr(this.ss_data.get(ssid).co_pt),
+            'co_pl', this._mapSetToStr(this.ss_data.get(ssid).co_pl),
+            'co_pg', this._mapSetToStr(this.ss_data.get(ssid).co_pg),
+            'co_ch', this._mapSetToStr(this.ss_data.get(ssid).co_ch),
         ]) + '\n';
+    }
+    private _mapSetToStr(map_set: Map<number, Set<number>>): string {
+        let result = '{';
+        map_set.forEach( (val_set, key) => {
+            result = result + key + ':' + JSON.stringify(Array.from(val_set));
+        });
+        return result + '}';
     }
 }
