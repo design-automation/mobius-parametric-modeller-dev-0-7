@@ -10,8 +10,7 @@
 import { checkArgs, ArgCh } from '../_check_args';
 
 import { Txyz, TPlane, XYPLANE, TId, EEntType } from '@libs/geo-info/common';
-import { idsMakeFromIdxs } from '@assets/libs/geo-info/common_id_funcs';
-import { getArrDepth } from '@assets/libs/util/arrs';
+import { getArrDepth, idsMakeFromIdxs } from '@assets/libs/geo-info/common_id_funcs';
 import { vecAdd } from '@libs/geom/vectors';
 import { xfromSourceTargetMatrix, multMatrix } from '@libs/geom/matrix';
 import { Matrix4 } from 'three';

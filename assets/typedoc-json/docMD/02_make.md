@@ -54,7 +54,12 @@
 )  
   
 ## Loft  
-* **Description:** Lofts between entities.  
+* **Description:** Lofts between entities.
+\n
+The geometry that is generated depends on the method that is selected.
+- The 'quads' methods will generate polygons.
+- The 'stringers' and 'ribs' methods will generate polylines.
+- The 'copies' method will generate copies of the input geometry type.  
 * **Parameters:**  
   * *entities:* List of entities, or list of lists of entities.  
   * *divisions:* undefined  
@@ -73,9 +78,15 @@
 * **Description:** Extrudes geometry by distance or by vector.
 - Extrusion of a position, vertex, or point produces polylines;
 - Extrusion of an edge, wire, or polyline produces polygons;
-- Extrusion of a face or polygon produces polygons, capped at the top.  
+- Extrusion of a face or polygon produces polygons, capped at the top.
+\n
+The geometry that is generated depends on the method that is selected.
+- The 'quads' methods will generate polygons.
+- The 'stringers' and 'ribs' methods will generate polylines.
+- The 'copies' method will generate copies of the input geometry type.
+\n  
 * **Parameters:**  
-  * *entities:* A list of entities, can be any type of entitiy.  
+  * *entities:* Vertex, edge, wire, face, position, point, polyline, polygon, collection.  
   * *dist:* Number or vector. If number, assumed to be [0,0,value] (i.e. extrusion distance in z-direction).  
   * *divisions:* Number of divisions to divide extrusion by. Minimum is 1.  
   * *method:* Enum, when extruding edges, select quads, stringers, or ribs  
@@ -89,7 +100,8 @@ In this case, the 'quads' setting is ignored.
   
   
 ## Sweep  
-* **Description:** Sweeps a cross section wire along a backbone wire.  
+* **Description:** Sweeps a cross section wire along a backbone wire.
+\n  
 * **Parameters:**  
   * *entities:* Wires, or entities from which wires can be extracted.  
   * *x_section:* undefined  
@@ -98,7 +110,17 @@ In this case, the 'quads' setting is ignored.
 * **Returns:** Entities, a list of new polygons or polylines resulting from the sweep.  
   
 ## Cut  
-* **Description:** Cuts polygons and polylines using a plane.  
+* **Description:** Cuts polygons and polylines using a plane.
+\n
+If the 'keep_above' method is selected, then only the part of the cut entities above the plane are kept.
+If the 'keep_below' method is selected, then only the part of the cut entities below the plane are kept.
+If the 'keep_both' method is selected, then both the parts of the cut entities are kept.
+\n
+Currently does not support cutting polygons with holes. TODO
+\n
+If 'keep_both' is selected, returns a list of two lists.
+[[entities above the plane], [entities below the plane]].
+\n  
 * **Parameters:**  
   * *entities:* Polylines or polygons, or entities from which polyline or polygons can be extracted.  
   * *plane:* The plane to cut with.  

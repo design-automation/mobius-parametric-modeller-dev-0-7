@@ -48,6 +48,7 @@ const strings = [
 const lists = [
     'len(list)',
     'range(start, end)',
+    'listLast(list)',
     'listGet(list, index)',
     'listFind(list, val)',
     'listHas(list, val)',
@@ -58,11 +59,9 @@ const lists = [
     'listFlat(list)',
     'listRot(list, rot)',
     'listSlice(list, start, end?)',
-    'listRev(list)',
-    'listSort(list1, list2)',
-    'listCull(list1, list2)',
+    'listCull(list)',
     'listZip(lists)',
-    'listEq(list1, list2)'
+    'listZip2(lists)'
 ];
 
 const dictionaries = [
@@ -72,8 +71,7 @@ const dictionaries = [
     'dictVals(dict)',
     'dictHasKey(dict, key)',
     'dictHasVal(dict, val)',
-    'dictFind(dict, val)',
-    'dictEq(dict1, dict2)'
+    'dictGetKeys(dict, val)'
 ];
 
  const sets = [
@@ -93,7 +91,7 @@ const dictionaries = [
     'vecSetLen(v, num)',
     'vecNorm(v)',
     'vecRev(v)',
-    'vecFromTo(xyz1, xyz2)',
+    'vecFromTo(pt1, pt2)',
     'vecAng(v1, v2)',
     'vecAng2(v1, v2, n)',
     'vecDot(v1, v2)',
@@ -121,7 +119,6 @@ const planes = [
 
 const rays = [
     'rayMake(o, d)',
-    'rayFromTo(xyz1, xyz2)',
     'rayCopy(r)',
     'rayMove(r, v)',
     'rayRot(r1, r2, a)',

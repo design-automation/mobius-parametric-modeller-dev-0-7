@@ -2,8 +2,7 @@ import { multMatrix, xfromSourceTargetMatrix } from '../../geom/matrix';
 import { vecAdd, vecCross, vecDiv, vecFromTo, vecMult } from '../../geom/vectors';
 import { EEntType, Txyz, TEntTypeIdx, TPlane, EAttribNames } from '../common';
 import * as THREE from 'three';
-import { getEntIdxs, isDim0, isDim2 } from '../common_id_funcs';
-import { getArrDepth } from '@assets/libs/util/arrs';
+import { getArrDepth, getEntIdxs, isDim0, isDim2 } from '../common_id_funcs';
 import { GIModelData } from '../GIModelData';
 import { listZip } from '@assets/core/inline/_list';
 
