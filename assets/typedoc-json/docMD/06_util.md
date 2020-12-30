@@ -29,7 +29,7 @@
   
 ## ModelCompare  
 * **Description:** Compares two models.
-The score that is calculated is based on whether the input model contains all the entities in this model.  
+Checks that every entity in this model also exists in the input_data.  
 * **Parameters:**  
   * *input_data:* The location of the GI Model to compare this model to.  
 * **Returns:** Text that summarises the comparison between the two models.  
