@@ -19,6 +19,7 @@ import { TId, EEntType, TEntTypeIdx, IEntSets } from '@libs/geo-info/common';
 import { idsMake, idsBreak, idsMakeFromIdxs, idMake } from '@assets/libs/geo-info/common_id_funcs';
 import { arrMakeFlat } from '@assets/libs/util/arrs';
 import JSZip from 'jszip';
+import fetch from 'node-fetch';
 
 const requestedBytes = 1024 * 1024 * 200; // 200 MB local storage quota
 
@@ -263,7 +264,7 @@ export async function Export(__model__: GIModel, entities: TId|TId[]|TId[][],
         if (entities !== null) {
             entities = arrMakeFlat(entities) as TId[];
             ents_arr = checkIDs(__model__, fn_name, 'entities', entities,
-                [ID.isIDL], [EEntType.PLINE, EEntType.PGON, EEntType.COLL])  as TEntTypeIdx[];
+                [ID.isIDL1], [EEntType.PLINE, EEntType.PGON, EEntType.COLL])  as TEntTypeIdx[];
         }
         chk.checkArgs(fn_name, 'file_name', file_name, [chk.isStr, chk.isStrL]);
     } else {
