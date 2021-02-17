@@ -3174,9 +3174,9 @@
 					],
 					"type": {
 						"type": "stringLiteral",
-						"value": "\nPI = __modules__._constants.PI;\nXY = __modules__._constants.XY;\nYZ = __modules__._constants.YZ;\nZX = __modules__._constants.ZX;\nYX = __modules__._constants.YX;\nZY = __modules__._constants.ZY;\nXZ = __modules__._constants.XZ;\nisNum = __modules__._types.isNum;\nisInt = __modules__._types.isInt;\nisFlt = __modules__._types.isFlt;\nisBool = __modules__._types.isBool;\nisStr = __modules__._types.isStr;\nisList = __modules__._types.isList;\nisDict = __modules__._types.isDict;\nisVec2 = __modules__._types.isVec2;\nisVec3 = __modules__._types.isVec3;\nisCol = __modules__._types.isCol;\nisRay = __modules__._types.isRay;\nisPln = __modules__._types.isPln;\nisNaN = __modules__._types.isNaN;\nisNull = __modules__._types.isNull;\nisUndef = __modules__._types.isUndef;\nstrRepl = __modules__._strs.strRepl;\nstrUpp = __modules__._strs.strUpp;\nstrLow = __modules__._strs.strLow;\nstrTrim = __modules__._strs.strTrim;\nstrTrimR = __modules__._strs.strTrimR;\nstrTrimL = __modules__._strs.strTrimL;\nstrSub = __modules__._strs.strSub;\nstrStarts = __modules__._strs.strStarts;\nstrEnds = __modules__._strs.strEnds;\nstrPadL = __modules__._strs.strPadL;\nstrPadR = __modules__._strs.strPadR;\nisApprox = __modules__._util.isApprox;\nisIn = __modules__._util.isIn;\nisWithin = __modules__._util.isWithin;\nmin = __modules__._math.min;\nmax = __modules__._math.max;\npow = __modules__._math.pow;\nsqrt = __modules__._math.sqrt;\nexp = __modules__._math.exp;\nlog = __modules__._math.log;\nround = __modules__._math.round;\nsigFig = __modules__._math.sigFig;\nceil = __modules__._math.ceil;\nfloor = __modules__._math.floor;\nabs = __modules__._math.abs;\nsin = __modules__._math.sin;\nasin = __modules__._math.asin;\nsinh = __modules__._math.sinh;\nasinh = __modules__._math.asinh;\ncos = __modules__._math.cos;\nacos = __modules__._math.acos;\ncosh = __modules__._math.cosh;\nacosh = __modules__._math.acosh;\ntan = __modules__._math.tan;\natan = __modules__._math.atan;\ntanh = __modules__._math.tanh;\natanh = __modules__._math.atanh;\natan2 = __modules__._math.atan2;\nboolean = __modules__._mathjs.boolean;\nnumber = __modules__._mathjs.number;\nstring = __modules__._mathjs.string;\nmad = __modules__._mathjs.mad;\nmean = __modules__._mathjs.mean;\nmedian = __modules__._mathjs.median;\nmode = __modules__._mathjs.mode;\nprod = __modules__._mathjs.prod;\nstd = __modules__._mathjs.std;\nvari = __modules__._mathjs.vari;\nsum = __modules__._mathjs.sum;\nhypot = __modules__._mathjs.hypot;\nnorm = __modules__._mathjs.norm;\nsquare = __modules__._mathjs.square;\ncube = __modules__._mathjs.cube;\nremap = __modules__._arithmetic.remap;\ndistance = __modules__._geometry.distance;\ndistanceM = __modules__._geometry.distanceM;\ndistanceMS = __modules__._geometry.distanceMS;\nintersect = __modules__._geometry.intersect;\nproject = __modules__._geometry.project;\nrange = __modules__._list.range;\nlen = __modules__._common.len;\nlistCount = __modules__._list.listCount;\nlistCopy = __modules__._list.listCopy;\nlistRep = __modules__._list.listRep;\nlistLast = __modules__._list.listLast;\nlistGet = __modules__._list.listGet;\nlistFind = __modules__._list.listFind;\nlistHas = __modules__._list.listHas;\nlistJoin = __modules__._list.listJoin;\nlistFlat = __modules__._list.listFlat;\nlistRot = __modules__._list.listRot;\nlistSlice = __modules__._list.listSlice;\nlistRev = __modules__._list.listRev;\nlistCull = __modules__._list.listCull;\nlistSort = __modules__._list.listSort;\nlistZip = __modules__._list.listZip;\nlistEq = __modules__._list.listEq;\ndictGet = __modules__._dict.dictGet;\ndictKeys = __modules__._dict.dictKeys;\ndictVals = __modules__._dict.dictVals;\ndictHasKey = __modules__._dict.dictHasKey;\ndictHasVal = __modules__._dict.dictHasVal;\ndictFind = __modules__._dict.dictFind;\ndictCopy = __modules__._dict.dictCopy;\ndictEq = __modules__._dict.dictEq;\nsetMake = __modules__._set.setMake;\nsetUni = __modules__._set.setUni;\nsetInt = __modules__._set.setInt;\nsetDif = __modules__._set.setDif;\nvecAdd = __modules__._vec.vecAdd;\nvecSub = __modules__._vec.vecSub;\nvecDiv = __modules__._vec.vecDiv;\nvecMult = __modules__._vec.vecMult;\nvecSum = __modules__._vec.vecSum;\nvecLen = __modules__._vec.vecLen;\nvecSetLen = __modules__._vec.vecSetLen;\nvecNorm = __modules__._vec.vecNorm;\nvecRev = __modules__._vec.vecRev;\nvecFromTo = __modules__._vec.vecFromTo;\nvecAng = __modules__._vec.vecAng;\nvecAng2 = __modules__._vec.vecAng2;\nvecDot = __modules__._vec.vecDot;\nvecCross = __modules__._vec.vecCross;\nvecEqual = __modules__._vec.vecEqual;\nvecLtoG = __modules__._vec.vecLtoG;\nvecGtoL = __modules__._vec.vecGtoL;\nplnMake = __modules__._plane.plnMake;\nplnCopy = __modules__._plane.plnCopy;\nplnMove = __modules__._plane.plnMove;\nplnRot = __modules__._plane.plnRot;\nplnLMove = __modules__._plane.plnLMove;\nplnLRotX = __modules__._plane.plnLRotX;\nplnLRotY = __modules__._plane.plnLRotY;\nplnLRotZ = __modules__._plane.plnLRotZ;\nrayMake = __modules__._ray.rayMake;\nrayCopy = __modules__._ray.rayCopy;\nrayMove = __modules__._ray.rayMove;\nrayRot = __modules__._ray.rayRot;\nrayLMove = __modules__._ray.rayLMove;\nrayFromPln = __modules__._ray.rayFromPln;\nrayLtoG = __modules__._ray.rayLtoG;\nrayGtoL = __modules__._ray.rayGtoL;\ncolFalse = __modules__._colors.colFalse;\ncolScale = __modules__._colors.colScale;\nradToDeg = __modules__._conversion.radToDeg;\ndegToRad = __modules__._conversion.degToRad;\nnumToStr = __modules__._conversion.numToStr;\nrand = __modules__._rand.rand;\nrandInt = __modules__._rand.randInt;\nrandPick = __modules__._rand.randPick;\n"
+						"value": "PI = __modules__._constants.PI;\nXY = __modules__._constants.XY;\nYZ = __modules__._constants.YZ;\nZX = __modules__._constants.ZX;\nYX = __modules__._constants.YX;\nZY = __modules__._constants.ZY;\nXZ = __modules__._constants.XZ;\nisNum = __modules__._types.isNum;\nisInt = __modules__._types.isInt;\nisFlt = __modules__._types.isFlt;\nisBool = __modules__._types.isBool;\nisStr = __modules__._types.isStr;\nisList = __modules__._types.isList;\nisDict = __modules__._types.isDict;\nisVec2 = __modules__._types.isVec2;\nisVec3 = __modules__._types.isVec3;\nisCol = __modules__._types.isCol;\nisRay = __modules__._types.isRay;\nisPln = __modules__._types.isPln;\nisNaN = __modules__._types.isNaN;\nisNull = __modules__._types.isNull;\nisUndef = __modules__._types.isUndef;\nstrRepl = __modules__._strs.strRepl;\nstrUpp = __modules__._strs.strUpp;\nstrLow = __modules__._strs.strLow;\nstrTrim = __modules__._strs.strTrim;\nstrTrimR = __modules__._strs.strTrimR;\nstrTrimL = __modules__._strs.strTrimL;\nstrSub = __modules__._strs.strSub;\nstrStarts = __modules__._strs.strStarts;\nstrEnds = __modules__._strs.strEnds;\nstrPadL = __modules__._strs.strPadL;\nstrPadR = __modules__._strs.strPadR;\nisApprox = __modules__._util.isApprox;\nisIn = __modules__._util.isIn;\nisWithin = __modules__._util.isWithin;\nmin = __modules__._math.min;\nmax = __modules__._math.max;\npow = __modules__._math.pow;\nsqrt = __modules__._math.sqrt;\nexp = __modules__._math.exp;\nlog = __modules__._math.log;\nround = __modules__._math.round;\nsigFig = __modules__._math.sigFig;\nceil = __modules__._math.ceil;\nfloor = __modules__._math.floor;\nabs = __modules__._math.abs;\nsin = __modules__._math.sin;\nasin = __modules__._math.asin;\nsinh = __modules__._math.sinh;\nasinh = __modules__._math.asinh;\ncos = __modules__._math.cos;\nacos = __modules__._math.acos;\ncosh = __modules__._math.cosh;\nacosh = __modules__._math.acosh;\ntan = __modules__._math.tan;\natan = __modules__._math.atan;\ntanh = __modules__._math.tanh;\natanh = __modules__._math.atanh;\natan2 = __modules__._math.atan2;\nboolean = __modules__._mathjs.boolean;\nnumber = __modules__._mathjs.number;\nstring = __modules__._mathjs.string;\nmad = __modules__._mathjs.mad;\nmean = __modules__._mathjs.mean;\nmedian = __modules__._mathjs.median;\nmode = __modules__._mathjs.mode;\nprod = __modules__._mathjs.prod;\nstd = __modules__._mathjs.std;\nvari = __modules__._mathjs.vari;\nsum = __modules__._mathjs.sum;\nhypot = __modules__._mathjs.hypot;\nnorm = __modules__._mathjs.norm;\nsquare = __modules__._mathjs.square;\ncube = __modules__._mathjs.cube;\nremap = __modules__._arithmetic.remap;\ndistance = __modules__._geometry.distance;\ndistanceM = __modules__._geometry.distanceM;\ndistanceMS = __modules__._geometry.distanceMS;\nintersect = __modules__._geometry.intersect;\nproject = __modules__._geometry.project;\nrange = __modules__._list.range;\nlen = __modules__._common.len;\nlistCount = __modules__._list.listCount;\nlistCopy = __modules__._list.listCopy;\nlistRep = __modules__._list.listRep;\nlistLast = __modules__._list.listLast;\nlistGet = __modules__._list.listGet;\nlistFind = __modules__._list.listFind;\nlistHas = __modules__._list.listHas;\nlistJoin = __modules__._list.listJoin;\nlistFlat = __modules__._list.listFlat;\nlistRot = __modules__._list.listRot;\nlistSlice = __modules__._list.listSlice;\nlistRev = __modules__._list.listRev;\nlistCull = __modules__._list.listCull;\nlistSort = __modules__._list.listSort;\nlistZip = __modules__._list.listZip;\nlistEq = __modules__._list.listEq;\ndictGet = __modules__._dict.dictGet;\ndictKeys = __modules__._dict.dictKeys;\ndictVals = __modules__._dict.dictVals;\ndictHasKey = __modules__._dict.dictHasKey;\ndictHasVal = __modules__._dict.dictHasVal;\ndictFind = __modules__._dict.dictFind;\ndictCopy = __modules__._dict.dictCopy;\ndictEq = __modules__._dict.dictEq;\nsetMake = __modules__._set.setMake;\nsetUni = __modules__._set.setUni;\nsetInt = __modules__._set.setInt;\nsetDif = __modules__._set.setDif;\nvecAdd = __modules__._vec.vecAdd;\nvecSub = __modules__._vec.vecSub;\nvecDiv = __modules__._vec.vecDiv;\nvecMult = __modules__._vec.vecMult;\nvecSum = __modules__._vec.vecSum;\nvecLen = __modules__._vec.vecLen;\nvecSetLen = __modules__._vec.vecSetLen;\nvecNorm = __modules__._vec.vecNorm;\nvecRev = __modules__._vec.vecRev;\nvecFromTo = __modules__._vec.vecFromTo;\nvecAng = __modules__._vec.vecAng;\nvecAng2 = __modules__._vec.vecAng2;\nvecDot = __modules__._vec.vecDot;\nvecCross = __modules__._vec.vecCross;\nvecEqual = __modules__._vec.vecEqual;\nvecLtoG = __modules__._vec.vecLtoG;\nvecGtoL = __modules__._vec.vecGtoL;\nplnMake = __modules__._plane.plnMake;\nplnCopy = __modules__._plane.plnCopy;\nplnMove = __modules__._plane.plnMove;\nplnRot = __modules__._plane.plnRot;\nplnLMove = __modules__._plane.plnLMove;\nplnLRotX = __modules__._plane.plnLRotX;\nplnLRotY = __modules__._plane.plnLRotY;\nplnLRotZ = __modules__._plane.plnLRotZ;\nrayMake = __modules__._ray.rayMake;\nrayCopy = __modules__._ray.rayCopy;\nrayMove = __modules__._ray.rayMove;\nrayRot = __modules__._ray.rayRot;\nrayLMove = __modules__._ray.rayLMove;\nrayFromPln = __modules__._ray.rayFromPln;\nrayLtoG = __modules__._ray.rayLtoG;\nrayGtoL = __modules__._ray.rayGtoL;\ncolFalse = __modules__._colors.colFalse;\ncolScale = __modules__._colors.colScale;\nradToDeg = __modules__._conversion.radToDeg;\ndegToRad = __modules__._conversion.degToRad;\nnumToStr = __modules__._conversion.numToStr;\nrand = __modules__._rand.rand;\nrandInt = __modules__._rand.randInt;\nrandPick = __modules__._rand.randPick;"
 					},
-					"defaultValue": " `\r\nPI = __modules__._constants.PI;\r\nXY = __modules__._constants.XY;\r\nYZ = __modules__._constants.YZ;\r\nZX = __modules__._constants.ZX;\r\nYX = __modules__._constants.YX;\r\nZY = __modules__._constants.ZY;\r\nXZ = __modules__._constants.XZ;\r\nisNum = __modules__._types.isNum;\r\nisInt = __modules__._types.isInt;\r\nisFlt = __modules__._types.isFlt;\r\nisBool = __modules__._types.isBool;\r\nisStr = __modules__._types.isStr;\r\nisList = __modules__._types.isList;\r\nisDict = __modules__._types.isDict;\r\nisVec2 = __modules__._types.isVec2;\r\nisVec3 = __modules__._types.isVec3;\r\nisCol = __modules__._types.isCol;\r\nisRay = __modules__._types.isRay;\r\nisPln = __modules__._types.isPln;\r\nisNaN = __modules__._types.isNaN;\r\nisNull = __modules__._types.isNull;\r\nisUndef = __modules__._types.isUndef;\r\nstrRepl = __modules__._strs.strRepl;\r\nstrUpp = __modules__._strs.strUpp;\r\nstrLow = __modules__._strs.strLow;\r\nstrTrim = __modules__._strs.strTrim;\r\nstrTrimR = __modules__._strs.strTrimR;\r\nstrTrimL = __modules__._strs.strTrimL;\r\nstrSub = __modules__._strs.strSub;\r\nstrStarts = __modules__._strs.strStarts;\r\nstrEnds = __modules__._strs.strEnds;\r\nstrPadL = __modules__._strs.strPadL;\r\nstrPadR = __modules__._strs.strPadR;\r\nisApprox = __modules__._util.isApprox;\r\nisIn = __modules__._util.isIn;\r\nisWithin = __modules__._util.isWithin;\r\nmin = __modules__._math.min;\r\nmax = __modules__._math.max;\r\npow = __modules__._math.pow;\r\nsqrt = __modules__._math.sqrt;\r\nexp = __modules__._math.exp;\r\nlog = __modules__._math.log;\r\nround = __modules__._math.round;\r\nsigFig = __modules__._math.sigFig;\r\nceil = __modules__._math.ceil;\r\nfloor = __modules__._math.floor;\r\nabs = __modules__._math.abs;\r\nsin = __modules__._math.sin;\r\nasin = __modules__._math.asin;\r\nsinh = __modules__._math.sinh;\r\nasinh = __modules__._math.asinh;\r\ncos = __modules__._math.cos;\r\nacos = __modules__._math.acos;\r\ncosh = __modules__._math.cosh;\r\nacosh = __modules__._math.acosh;\r\ntan = __modules__._math.tan;\r\natan = __modules__._math.atan;\r\ntanh = __modules__._math.tanh;\r\natanh = __modules__._math.atanh;\r\natan2 = __modules__._math.atan2;\r\nboolean = __modules__._mathjs.boolean;\r\nnumber = __modules__._mathjs.number;\r\nstring = __modules__._mathjs.string;\r\nmad = __modules__._mathjs.mad;\r\nmean = __modules__._mathjs.mean;\r\nmedian = __modules__._mathjs.median;\r\nmode = __modules__._mathjs.mode;\r\nprod = __modules__._mathjs.prod;\r\nstd = __modules__._mathjs.std;\r\nvari = __modules__._mathjs.vari;\r\nsum = __modules__._mathjs.sum;\r\nhypot = __modules__._mathjs.hypot;\r\nnorm = __modules__._mathjs.norm;\r\nsquare = __modules__._mathjs.square;\r\ncube = __modules__._mathjs.cube;\r\nremap = __modules__._arithmetic.remap;\r\ndistance = __modules__._geometry.distance;\r\ndistanceM = __modules__._geometry.distanceM;\r\ndistanceMS = __modules__._geometry.distanceMS;\r\nintersect = __modules__._geometry.intersect;\r\nproject = __modules__._geometry.project;\r\nrange = __modules__._list.range;\r\nlen = __modules__._common.len;\r\nlistCount = __modules__._list.listCount;\r\nlistCopy = __modules__._list.listCopy;\r\nlistRep = __modules__._list.listRep;\r\nlistLast = __modules__._list.listLast;\r\nlistGet = __modules__._list.listGet;\r\nlistFind = __modules__._list.listFind;\r\nlistHas = __modules__._list.listHas;\r\nlistJoin = __modules__._list.listJoin;\r\nlistFlat = __modules__._list.listFlat;\r\nlistRot = __modules__._list.listRot;\r\nlistSlice = __modules__._list.listSlice;\r\nlistRev = __modules__._list.listRev;\r\nlistCull = __modules__._list.listCull;\r\nlistSort = __modules__._list.listSort;\r\nlistZip = __modules__._list.listZip;\r\nlistEq = __modules__._list.listEq;\r\ndictGet = __modules__._dict.dictGet;\r\ndictKeys = __modules__._dict.dictKeys;\r\ndictVals = __modules__._dict.dictVals;\r\ndictHasKey = __modules__._dict.dictHasKey;\r\ndictHasVal = __modules__._dict.dictHasVal;\r\ndictFind = __modules__._dict.dictFind;\r\ndictCopy = __modules__._dict.dictCopy;\r\ndictEq = __modules__._dict.dictEq;\r\nsetMake = __modules__._set.setMake;\r\nsetUni = __modules__._set.setUni;\r\nsetInt = __modules__._set.setInt;\r\nsetDif = __modules__._set.setDif;\r\nvecAdd = __modules__._vec.vecAdd;\r\nvecSub = __modules__._vec.vecSub;\r\nvecDiv = __modules__._vec.vecDiv;\r\nvecMult = __modules__._vec.vecMult;\r\nvecSum = __modules__._vec.vecSum;\r\nvecLen = __modules__._vec.vecLen;\r\nvecSetLen = __modules__._vec.vecSetLen;\r\nvecNorm = __modules__._vec.vecNorm;\r\nvecRev = __modules__._vec.vecRev;\r\nvecFromTo = __modules__._vec.vecFromTo;\r\nvecAng = __modules__._vec.vecAng;\r\nvecAng2 = __modules__._vec.vecAng2;\r\nvecDot = __modules__._vec.vecDot;\r\nvecCross = __modules__._vec.vecCross;\r\nvecEqual = __modules__._vec.vecEqual;\r\nvecLtoG = __modules__._vec.vecLtoG;\r\nvecGtoL = __modules__._vec.vecGtoL;\r\nplnMake = __modules__._plane.plnMake;\r\nplnCopy = __modules__._plane.plnCopy;\r\nplnMove = __modules__._plane.plnMove;\r\nplnRot = __modules__._plane.plnRot;\r\nplnLMove = __modules__._plane.plnLMove;\r\nplnLRotX = __modules__._plane.plnLRotX;\r\nplnLRotY = __modules__._plane.plnLRotY;\r\nplnLRotZ = __modules__._plane.plnLRotZ;\r\nrayMake = __modules__._ray.rayMake;\r\nrayCopy = __modules__._ray.rayCopy;\r\nrayMove = __modules__._ray.rayMove;\r\nrayRot = __modules__._ray.rayRot;\r\nrayLMove = __modules__._ray.rayLMove;\r\nrayFromPln = __modules__._ray.rayFromPln;\r\nrayLtoG = __modules__._ray.rayLtoG;\r\nrayGtoL = __modules__._ray.rayGtoL;\r\ncolFalse = __modules__._colors.colFalse;\r\ncolScale = __modules__._colors.colScale;\r\nradToDeg = __modules__._conversion.radToDeg;\r\ndegToRad = __modules__._conversion.degToRad;\r\nnumToStr = __modules__._conversion.numToStr;\r\nrand = __modules__._rand.rand;\r\nrandInt = __modules__._rand.randInt;\r\nrandPick = __modules__._rand.randPick;\r\n`"
+					"defaultValue": " \r\n`PI = __modules__._constants.PI;\r\nXY = __modules__._constants.XY;\r\nYZ = __modules__._constants.YZ;\r\nZX = __modules__._constants.ZX;\r\nYX = __modules__._constants.YX;\r\nZY = __modules__._constants.ZY;\r\nXZ = __modules__._constants.XZ;\r\nisNum = __modules__._types.isNum;\r\nisInt = __modules__._types.isInt;\r\nisFlt = __modules__._types.isFlt;\r\nisBool = __modules__._types.isBool;\r\nisStr = __modules__._types.isStr;\r\nisList = __modules__._types.isList;\r\nisDict = __modules__._types.isDict;\r\nisVec2 = __modules__._types.isVec2;\r\nisVec3 = __modules__._types.isVec3;\r\nisCol = __modules__._types.isCol;\r\nisRay = __modules__._types.isRay;\r\nisPln = __modules__._types.isPln;\r\nisNaN = __modules__._types.isNaN;\r\nisNull = __modules__._types.isNull;\r\nisUndef = __modules__._types.isUndef;\r\nstrRepl = __modules__._strs.strRepl;\r\nstrUpp = __modules__._strs.strUpp;\r\nstrLow = __modules__._strs.strLow;\r\nstrTrim = __modules__._strs.strTrim;\r\nstrTrimR = __modules__._strs.strTrimR;\r\nstrTrimL = __modules__._strs.strTrimL;\r\nstrSub = __modules__._strs.strSub;\r\nstrStarts = __modules__._strs.strStarts;\r\nstrEnds = __modules__._strs.strEnds;\r\nstrPadL = __modules__._strs.strPadL;\r\nstrPadR = __modules__._strs.strPadR;\r\nisApprox = __modules__._util.isApprox;\r\nisIn = __modules__._util.isIn;\r\nisWithin = __modules__._util.isWithin;\r\nmin = __modules__._math.min;\r\nmax = __modules__._math.max;\r\npow = __modules__._math.pow;\r\nsqrt = __modules__._math.sqrt;\r\nexp = __modules__._math.exp;\r\nlog = __modules__._math.log;\r\nround = __modules__._math.round;\r\nsigFig = __modules__._math.sigFig;\r\nceil = __modules__._math.ceil;\r\nfloor = __modules__._math.floor;\r\nabs = __modules__._math.abs;\r\nsin = __modules__._math.sin;\r\nasin = __modules__._math.asin;\r\nsinh = __modules__._math.sinh;\r\nasinh = __modules__._math.asinh;\r\ncos = __modules__._math.cos;\r\nacos = __modules__._math.acos;\r\ncosh = __modules__._math.cosh;\r\nacosh = __modules__._math.acosh;\r\ntan = __modules__._math.tan;\r\natan = __modules__._math.atan;\r\ntanh = __modules__._math.tanh;\r\natanh = __modules__._math.atanh;\r\natan2 = __modules__._math.atan2;\r\nboolean = __modules__._mathjs.boolean;\r\nnumber = __modules__._mathjs.number;\r\nstring = __modules__._mathjs.string;\r\nmad = __modules__._mathjs.mad;\r\nmean = __modules__._mathjs.mean;\r\nmedian = __modules__._mathjs.median;\r\nmode = __modules__._mathjs.mode;\r\nprod = __modules__._mathjs.prod;\r\nstd = __modules__._mathjs.std;\r\nvari = __modules__._mathjs.vari;\r\nsum = __modules__._mathjs.sum;\r\nhypot = __modules__._mathjs.hypot;\r\nnorm = __modules__._mathjs.norm;\r\nsquare = __modules__._mathjs.square;\r\ncube = __modules__._mathjs.cube;\r\nremap = __modules__._arithmetic.remap;\r\ndistance = __modules__._geometry.distance;\r\ndistanceM = __modules__._geometry.distanceM;\r\ndistanceMS = __modules__._geometry.distanceMS;\r\nintersect = __modules__._geometry.intersect;\r\nproject = __modules__._geometry.project;\r\nrange = __modules__._list.range;\r\nlen = __modules__._common.len;\r\nlistCount = __modules__._list.listCount;\r\nlistCopy = __modules__._list.listCopy;\r\nlistRep = __modules__._list.listRep;\r\nlistLast = __modules__._list.listLast;\r\nlistGet = __modules__._list.listGet;\r\nlistFind = __modules__._list.listFind;\r\nlistHas = __modules__._list.listHas;\r\nlistJoin = __modules__._list.listJoin;\r\nlistFlat = __modules__._list.listFlat;\r\nlistRot = __modules__._list.listRot;\r\nlistSlice = __modules__._list.listSlice;\r\nlistRev = __modules__._list.listRev;\r\nlistCull = __modules__._list.listCull;\r\nlistSort = __modules__._list.listSort;\r\nlistZip = __modules__._list.listZip;\r\nlistEq = __modules__._list.listEq;\r\ndictGet = __modules__._dict.dictGet;\r\ndictKeys = __modules__._dict.dictKeys;\r\ndictVals = __modules__._dict.dictVals;\r\ndictHasKey = __modules__._dict.dictHasKey;\r\ndictHasVal = __modules__._dict.dictHasVal;\r\ndictFind = __modules__._dict.dictFind;\r\ndictCopy = __modules__._dict.dictCopy;\r\ndictEq = __modules__._dict.dictEq;\r\nsetMake = __modules__._set.setMake;\r\nsetUni = __modules__._set.setUni;\r\nsetInt = __modules__._set.setInt;\r\nsetDif = __modules__._set.setDif;\r\nvecAdd = __modules__._vec.vecAdd;\r\nvecSub = __modules__._vec.vecSub;\r\nvecDiv = __modules__._vec.vecDiv;\r\nvecMult = __modules__._vec.vecMult;\r\nvecSum = __modules__._vec.vecSum;\r\nvecLen = __modules__._vec.vecLen;\r\nvecSetLen = __modules__._vec.vecSetLen;\r\nvecNorm = __modules__._vec.vecNorm;\r\nvecRev = __modules__._vec.vecRev;\r\nvecFromTo = __modules__._vec.vecFromTo;\r\nvecAng = __modules__._vec.vecAng;\r\nvecAng2 = __modules__._vec.vecAng2;\r\nvecDot = __modules__._vec.vecDot;\r\nvecCross = __modules__._vec.vecCross;\r\nvecEqual = __modules__._vec.vecEqual;\r\nvecLtoG = __modules__._vec.vecLtoG;\r\nvecGtoL = __modules__._vec.vecGtoL;\r\nplnMake = __modules__._plane.plnMake;\r\nplnCopy = __modules__._plane.plnCopy;\r\nplnMove = __modules__._plane.plnMove;\r\nplnRot = __modules__._plane.plnRot;\r\nplnLMove = __modules__._plane.plnLMove;\r\nplnLRotX = __modules__._plane.plnLRotX;\r\nplnLRotY = __modules__._plane.plnLRotY;\r\nplnLRotZ = __modules__._plane.plnLRotZ;\r\nrayMake = __modules__._ray.rayMake;\r\nrayCopy = __modules__._ray.rayCopy;\r\nrayMove = __modules__._ray.rayMove;\r\nrayRot = __modules__._ray.rayRot;\r\nrayLMove = __modules__._ray.rayLMove;\r\nrayFromPln = __modules__._ray.rayFromPln;\r\nrayLtoG = __modules__._ray.rayLtoG;\r\nrayGtoL = __modules__._ray.rayGtoL;\r\ncolFalse = __modules__._colors.colFalse;\r\ncolScale = __modules__._colors.colScale;\r\nradToDeg = __modules__._conversion.radToDeg;\r\ndegToRad = __modules__._conversion.degToRad;\r\nnumToStr = __modules__._conversion.numToStr;\r\nrand = __modules__._rand.rand;\r\nrandInt = __modules__._rand.randInt;\r\nrandPick = __modules__._rand.randPick;`"
 				},
 				{
 					"id": 6531,
@@ -60549,7 +60549,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 104,
+									"line": 110,
 									"character": 16
 								}
 							]
@@ -60644,7 +60644,7 @@
 													"sources": [
 														{
 															"fileName": "libs/geo-info/GIModelData.ts",
-															"line": 119,
+															"line": 125,
 															"character": 67
 														}
 													],
@@ -60664,7 +60664,7 @@
 													"sources": [
 														{
 															"fileName": "libs/geo-info/GIModelData.ts",
-															"line": 119,
+															"line": 125,
 															"character": 20
 														}
 													],
@@ -60684,7 +60684,7 @@
 													"sources": [
 														{
 															"fileName": "libs/geo-info/GIModelData.ts",
-															"line": 119,
+															"line": 125,
 															"character": 35
 														}
 													],
@@ -60704,7 +60704,7 @@
 													"sources": [
 														{
 															"fileName": "libs/geo-info/GIModelData.ts",
-															"line": 119,
+															"line": 125,
 															"character": 50
 														}
 													],
@@ -60729,7 +60729,7 @@
 											"sources": [
 												{
 													"fileName": "libs/geo-info/GIModelData.ts",
-													"line": 118,
+													"line": 124,
 													"character": 117
 												}
 											]
@@ -60740,7 +60740,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 118,
+									"line": 124,
 									"character": 18
 								}
 							]
@@ -60851,7 +60851,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 217,
+									"line": 223,
 									"character": 19
 								}
 							]
@@ -60914,7 +60914,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 162,
+									"line": 168,
 									"character": 25
 								}
 							]
@@ -60977,7 +60977,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 128,
+									"line": 134,
 									"character": 26
 								}
 							]
@@ -61066,7 +61066,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 224,
+									"line": 230,
 									"character": 23
 								}
 							]
@@ -61111,7 +61111,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 231,
+									"line": 237,
 									"character": 16
 								}
 							]
@@ -61170,7 +61170,7 @@
 							"sources": [
 								{
 									"fileName": "libs/geo-info/GIModelData.ts",
-									"line": 208,
+									"line": 214,
 									"character": 22
 								}
 							]
@@ -103820,7 +103820,7 @@
 									"kindString": "Call signature",
 									"flags": {},
 									"comment": {
-										"shortText": "Import GI data into this model"
+										"shortText": "Import GI data into this model, and renumber teh entities in the process."
 									},
 									"parameters": [
 										{
@@ -115431,7 +115431,7 @@
 					"sources": [
 						{
 							"fileName": "libs/geo-info/io/io_gltf.ts",
-							"line": 164,
+							"line": 170,
 							"character": 18
 						}
 					]
@@ -115548,7 +115548,7 @@
 					"sources": [
 						{
 							"fileName": "libs/geo-info/io/io_gltf.ts",
-							"line": 205,
+							"line": 211,
 							"character": 19
 						}
 					]
@@ -115662,7 +115662,7 @@
 					"sources": [
 						{
 							"fileName": "libs/geo-info/io/io_gltf.ts",
-							"line": 90,
+							"line": 96,
 							"character": 17
 						}
 					]
@@ -115734,7 +115734,7 @@
 					"sources": [
 						{
 							"fileName": "libs/geo-info/io/io_gltf.ts",
-							"line": 61,
+							"line": 67,
 							"character": 24
 						}
 					]
