@@ -16,8 +16,8 @@ export class GIGeomImpExp {
         this._geom_maps = geom_maps;
     }
     /**
-     * Import GI data into this model, and renumber teh entities in the process.
-     * @param other_geom_maps The data to import
+     * Import GI data into this model
+     * @param other_geom_maps The geom_arrays of the other model.
      */
     public importGIRenum( gi_data: IGeomJSONData ): IRenumMaps {
         // positions
