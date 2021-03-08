@@ -3845,7 +3845,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_arithmetic.ts",
-							"line": 7,
+							"line": 9,
 							"character": 21
 						}
 					]
@@ -3891,7 +3891,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_colors.ts",
-							"line": 4,
+							"line": 5,
 							"character": 15
 						}
 					],
@@ -4012,7 +4012,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_colors.ts",
-							"line": 13,
+							"line": 14,
 							"character": 24
 						}
 					]
@@ -4134,7 +4134,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_colors.ts",
-							"line": 35,
+							"line": 39,
 							"character": 24
 						}
 					]
@@ -5003,7 +5003,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_conversion.ts",
-							"line": 15,
+							"line": 20,
 							"character": 24
 						}
 					]
@@ -5113,7 +5113,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_conversion.ts",
-							"line": 49,
+							"line": 60,
 							"character": 25
 						}
 					]
@@ -5225,7 +5225,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_conversion.ts",
-							"line": 28,
+							"line": 36,
 							"character": 24
 						}
 					]
@@ -5309,7 +5309,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_conversion.ts",
-							"line": 6,
+							"line": 8,
 							"character": 24
 						}
 					]
@@ -6020,7 +6020,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 5,
+							"line": 6,
 							"character": 11
 						}
 					],
@@ -6056,7 +6056,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 4,
+							"line": 5,
 							"character": 9
 						}
 					],
@@ -6087,7 +6087,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 3,
+							"line": 4,
 							"character": 9
 						}
 					],
@@ -6193,7 +6193,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 48,
+							"line": 55,
 							"character": 24
 						}
 					]
@@ -6282,7 +6282,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 58,
+							"line": 68,
 							"character": 25
 						}
 					]
@@ -6371,7 +6371,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 68,
+							"line": 81,
 							"character": 26
 						}
 					]
@@ -6481,7 +6481,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 23,
+							"line": 24,
 							"character": 25
 						}
 					]
@@ -6591,7 +6591,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_geometry.ts",
-							"line": 38,
+							"line": 42,
 							"character": 23
 						}
 					]
@@ -8071,7 +8071,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 214,
+							"line": 249,
 							"character": 19
 						}
 					]
@@ -8156,7 +8156,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 309,
+							"line": 362,
 							"character": 20
 						}
 					]
@@ -8241,7 +8241,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 340,
+							"line": 399,
 							"character": 21
 						}
 					]
@@ -8326,7 +8326,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 247,
+							"line": 288,
 							"character": 20
 						}
 					]
@@ -8411,7 +8411,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 275,
+							"line": 322,
 							"character": 21
 						}
 					]
@@ -8496,7 +8496,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 373,
+							"line": 438,
 							"character": 20
 						}
 					]
@@ -8539,6 +8539,9 @@
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {},
+									"comment": {
+										"text": "A list of two numbers [x,y] or a list of lists [[x,y], [x,y], [x,y]...].\n"
+									},
 									"type": {
 										"type": "union",
 										"types": [
@@ -8596,7 +8599,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 387,
+							"line": 455,
 							"character": 21
 						}
 					]
@@ -8681,7 +8684,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 421,
+							"line": 495,
 							"character": 21
 						}
 					]
@@ -8766,7 +8769,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 174,
+							"line": 203,
 							"character": 20
 						}
 					]
@@ -8851,7 +8854,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 291,
+							"line": 341,
 							"character": 19
 						}
 					]
@@ -8936,7 +8939,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 323,
+							"line": 379,
 							"character": 20
 						}
 					]
@@ -9020,7 +9023,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 98,
+							"line": 112,
 							"character": 19
 						}
 					]
@@ -9105,7 +9108,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 191,
+							"line": 223,
 							"character": 21
 						}
 					]
@@ -9189,7 +9192,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 109,
+							"line": 126,
 							"character": 19
 						}
 					]
@@ -9273,7 +9276,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 120,
+							"line": 140,
 							"character": 21
 						}
 					]
@@ -9334,7 +9337,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 59,
+							"line": 64,
 							"character": 19
 						}
 					]
@@ -9395,7 +9398,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 38,
+							"line": 40,
 							"character": 19
 						}
 					]
@@ -9459,7 +9462,7 @@
 								},
 								{
 									"id": 3668,
-									"name": "exp",
+									"name": "xp",
 									"kind": 32768,
 									"kindString": "Parameter",
 									"flags": {},
@@ -9493,7 +9496,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 76,
+							"line": 84,
 							"character": 19
 						}
 					]
@@ -9592,7 +9595,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 132,
+							"line": 155,
 							"character": 21
 						}
 					]
@@ -9690,7 +9693,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 152,
+							"line": 178,
 							"character": 22
 						}
 					]
@@ -9775,7 +9778,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 229,
+							"line": 267,
 							"character": 19
 						}
 					]
@@ -9860,7 +9863,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 261,
+							"line": 305,
 							"character": 20
 						}
 					]
@@ -9944,7 +9947,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 87,
+							"line": 98,
 							"character": 20
 						}
 					]
@@ -10029,7 +10032,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 353,
+							"line": 415,
 							"character": 19
 						}
 					]
@@ -10114,7 +10117,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_math.ts",
-							"line": 403,
+							"line": 474,
 							"character": 20
 						}
 					]
@@ -10227,7 +10230,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 6,
+							"line": 7,
 							"character": 23
 						}
 					]
@@ -10287,7 +10290,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 104,
+							"line": 147,
 							"character": 20
 						}
 					]
@@ -10347,7 +10350,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 83,
+							"line": 117,
 							"character": 21
 						}
 					]
@@ -10407,7 +10410,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 27,
+							"line": 37,
 							"character": 19
 						}
 					]
@@ -10467,7 +10470,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 34,
+							"line": 47,
 							"character": 20
 						}
 					]
@@ -10527,7 +10530,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 41,
+							"line": 57,
 							"character": 22
 						}
 					]
@@ -10587,7 +10590,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 48,
+							"line": 67,
 							"character": 20
 						}
 					]
@@ -10647,7 +10650,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 90,
+							"line": 127,
 							"character": 20
 						}
 					]
@@ -10707,7 +10710,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 13,
+							"line": 17,
 							"character": 22
 						}
 					]
@@ -10767,7 +10770,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 55,
+							"line": 77,
 							"character": 20
 						}
 					]
@@ -10827,7 +10830,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 97,
+							"line": 137,
 							"character": 22
 						}
 					]
@@ -10887,7 +10890,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 62,
+							"line": 87,
 							"character": 19
 						}
 					]
@@ -10947,7 +10950,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 20,
+							"line": 27,
 							"character": 22
 						}
 					]
@@ -11007,7 +11010,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 76,
+							"line": 107,
 							"character": 19
 						}
 					]
@@ -11067,7 +11070,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_mathjs.ts",
-							"line": 69,
+							"line": 97,
 							"character": 20
 						}
 					]
@@ -11198,7 +11201,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 62,
+							"line": 66,
 							"character": 23
 						}
 					]
@@ -11286,7 +11289,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 275,
+							"line": 300,
 							"character": 26
 						}
 					]
@@ -11400,7 +11403,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 141,
+							"line": 154,
 							"character": 24
 						}
 					]
@@ -11512,7 +11515,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 175,
+							"line": 191,
 							"character": 24
 						}
 					]
@@ -11624,7 +11627,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 208,
+							"line": 227,
 							"character": 24
 						}
 					]
@@ -11736,7 +11739,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 241,
+							"line": 263,
 							"character": 24
 						}
 					]
@@ -11876,7 +11879,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 20,
+							"line": 21,
 							"character": 23
 						}
 					]
@@ -11990,7 +11993,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 75,
+							"line": 82,
 							"character": 23
 						}
 					]
@@ -12128,7 +12131,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_plane.ts",
-							"line": 105,
+							"line": 115,
 							"character": 22
 						}
 					]
@@ -12226,7 +12229,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_rand.ts",
-							"line": 63,
+							"line": 73,
 							"character": 29
 						}
 					]
@@ -12268,7 +12271,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_rand.ts",
-							"line": 51,
+							"line": 61,
 							"character": 22
 						}
 					]
@@ -12354,7 +12357,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_rand.ts",
-							"line": 9,
+							"line": 10,
 							"character": 20
 						}
 					]
@@ -12440,7 +12443,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_rand.ts",
-							"line": 23,
+							"line": 27,
 							"character": 23
 						}
 					]
@@ -12541,7 +12544,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_rand.ts",
-							"line": 37,
+							"line": 44,
 							"character": 24
 						}
 					]
@@ -12691,7 +12694,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 209,
+							"line": 237,
 							"character": 18
 						}
 					]
@@ -12779,7 +12782,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 78,
+							"line": 85,
 							"character": 23
 						}
 					]
@@ -12867,7 +12870,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 185,
+							"line": 204,
 							"character": 26
 						}
 					]
@@ -12981,7 +12984,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 46,
+							"line": 50,
 							"character": 25
 						}
 					]
@@ -13095,7 +13098,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 206,
+							"line": 231,
 							"character": 23
 						}
 					]
@@ -13207,7 +13210,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 156,
+							"line": 172,
 							"character": 24
 						}
 					]
@@ -13321,7 +13324,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 198,
+							"line": 220,
 							"character": 23
 						}
 					]
@@ -13449,7 +13452,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 13,
+							"line": 14,
 							"character": 23
 						}
 					]
@@ -13563,7 +13566,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 90,
+							"line": 100,
 							"character": 23
 						}
 					]
@@ -13701,7 +13704,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_ray.ts",
-							"line": 120,
+							"line": 133,
 							"character": 22
 						}
 					]
@@ -13820,7 +13823,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_set.ts",
-							"line": 34,
+							"line": 44,
 							"character": 22
 						}
 					]
@@ -13901,7 +13904,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_set.ts",
-							"line": 26,
+							"line": 33,
 							"character": 22
 						}
 					]
@@ -13967,7 +13970,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_set.ts",
-							"line": 10,
+							"line": 11,
 							"character": 23
 						}
 					]
@@ -14048,7 +14051,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_set.ts",
-							"line": 18,
+							"line": 22,
 							"character": 22
 						}
 					]
@@ -14084,9 +14087,6 @@
 				"isExternal": true
 			},
 			"originalName": "C:/Users/patrick/Documents/Repos/mobius/mobius-parametric-modeller-dev-0-7/src/assets/core/inline/_strs.ts",
-			"comment": {
-				"shortText": "Functions to work with strings."
-			},
 			"children": [
 				{
 					"id": 6288,
@@ -14179,7 +14179,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 118,
+							"line": 150,
 							"character": 23
 						}
 					]
@@ -14263,7 +14263,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 43,
+							"line": 51,
 							"character": 22
 						}
 					]
@@ -14373,7 +14373,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 78,
+							"line": 98,
 							"character": 23
 						}
 					]
@@ -14483,7 +14483,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 89,
+							"line": 112,
 							"character": 23
 						}
 					]
@@ -14591,7 +14591,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 27,
+							"line": 29,
 							"character": 23
 						}
 					]
@@ -14687,7 +14687,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 109,
+							"line": 138,
 							"character": 25
 						}
 					]
@@ -14797,7 +14797,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 100,
+							"line": 126,
 							"character": 22
 						}
 					]
@@ -14881,7 +14881,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 51,
+							"line": 62,
 							"character": 23
 						}
 					]
@@ -14965,7 +14965,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 67,
+							"line": 84,
 							"character": 24
 						}
 					]
@@ -15049,7 +15049,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 59,
+							"line": 73,
 							"character": 24
 						}
 					]
@@ -15133,7 +15133,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_strs.ts",
-							"line": 35,
+							"line": 40,
 							"character": 22
 						}
 					]
@@ -16350,7 +16350,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_util.ts",
-							"line": 7,
+							"line": 9,
 							"character": 24
 						}
 					]
@@ -16434,7 +16434,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_util.ts",
-							"line": 16,
+							"line": 21,
 							"character": 20
 						}
 					]
@@ -16518,7 +16518,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_util.ts",
-							"line": 26,
+							"line": 34,
 							"character": 24
 						}
 					]
@@ -16655,7 +16655,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 596,
+							"line": 659,
 							"character": 18
 						}
 					]
@@ -16782,7 +16782,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 46,
+							"line": 50,
 							"character": 22
 						}
 					]
@@ -16804,7 +16804,7 @@
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Calculate the angle (0 to PI) between two vectors"
+								"shortText": "Calculate the angle (0 to PI) between two vectors.\n\\n\nThe inner (smaller) angle is always returned, which will always be smaller than or equal to PI."
 							},
 							"parameters": [
 								{
@@ -16894,7 +16894,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 288,
+							"line": 315,
 							"character": 22
 						}
 					]
@@ -16916,7 +16916,7 @@
 							"kindString": "Call signature",
 							"flags": {},
 							"comment": {
-								"shortText": "Calculate the angle (0 to 2PI) between two vectors, relative to the plane normal"
+								"shortText": "Calculate the angle (0 to 2PI) between two vectors, relative to the plane normal.\n\\n\nUnlike the vecAng() function, this funtion may return an angle larger than PI.\n\\n\nThe function calculates the angle from the first vector to the second vector\nin a counter-clockwise direction, assuming the normal is pointing up towards the viewer.\n\\n"
 							},
 							"parameters": [
 								{
@@ -17032,7 +17032,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 389,
+							"line": 431,
 							"character": 23
 						}
 					]
@@ -17146,7 +17146,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 254,
+							"line": 276,
 							"character": 24
 						}
 					]
@@ -17258,7 +17258,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 115,
+							"line": 125,
 							"character": 22
 						}
 					]
@@ -17370,7 +17370,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 220,
+							"line": 239,
 							"character": 22
 						}
 					]
@@ -17494,7 +17494,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 357,
+							"line": 390,
 							"character": 24
 						}
 					]
@@ -17608,7 +17608,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 322,
+							"line": 352,
 							"character": 25
 						}
 					]
@@ -17722,7 +17722,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 592,
+							"line": 652,
 							"character": 23
 						}
 					]
@@ -17808,7 +17808,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 541,
+							"line": 589,
 							"character": 22
 						}
 					]
@@ -17922,7 +17922,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 584,
+							"line": 641,
 							"character": 23
 						}
 					]
@@ -18034,7 +18034,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 150,
+							"line": 163,
 							"character": 23
 						}
 					]
@@ -18122,7 +18122,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 555,
+							"line": 606,
 							"character": 23
 						}
 					]
@@ -18210,7 +18210,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 569,
+							"line": 623,
 							"character": 22
 						}
 					]
@@ -18348,7 +18348,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 465,
+							"line": 510,
 							"character": 22
 						}
 					]
@@ -18460,7 +18460,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 185,
+							"line": 201,
 							"character": 25
 						}
 					]
@@ -18587,7 +18587,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 81,
+							"line": 88,
 							"character": 22
 						}
 					]
@@ -18654,7 +18654,7 @@
 					"sources": [
 						{
 							"fileName": "core/inline/_vec.ts",
-							"line": 28,
+							"line": 29,
 							"character": 22
 						}
 					]
