@@ -424,7 +424,7 @@ SOFTWARE.
 
 core-js
 MIT
-Copyright (c) 2014-2019 Denis Pushkarev
+Copyright (c) 2014-2020 Denis Pushkarev
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -447,7 +447,7 @@ THE SOFTWARE.
 
 cytoscape
 MIT
-Copyright (c) 2016-2020, The Cytoscape Consortium.
+Copyright (c) 2016-2021, The Cytoscape Consortium.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the “Software”), to deal in
