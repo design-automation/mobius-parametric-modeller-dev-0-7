@@ -116311,7 +116311,7 @@
 					"sources": [
 						{
 							"fileName": "libs/geo-info/io/io_geojson.ts",
-							"line": 544,
+							"line": 548,
 							"character": 31
 						}
 					]
@@ -116437,7 +116437,7 @@
 					"sources": [
 						{
 							"fileName": "libs/geo-info/io/io_geojson.ts",
-							"line": 569,
+							"line": 573,
 							"character": 31
 						}
 					]
