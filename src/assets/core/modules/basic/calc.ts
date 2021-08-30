@@ -12,10 +12,10 @@ import { checkIDs, ID } from '../../_check_ids';
 import * as chk from '../../_check_types';
 
 import { GIModel } from '@libs/geo-info/GIModel';
-import { TId, Txyz, EEntType, TEntTypeIdx, TRay, TPlane, TBBox, Txy } from '@libs/geo-info/common';
+import { TId, Txyz, EEntType, TEntTypeIdx, TRay, TPlane, TBBox, Txy, EWireType } from '@libs/geo-info/common';
 import { idsBreak } from '@assets/libs/geo-info/common_id_funcs';
 import { distance } from '@libs/geom/distance';
-import { vecSum, vecDiv, vecAdd, vecSub, vecCross, vecMult, vecFromTo, vecLen, vecDot, vecNorm, vecSetLen } from '@libs/geom/vectors';
+import { vecSum, vecDiv, vecAdd, vecSub, vecCross, vecMult, vecFromTo, vecLen, vecDot, vecNorm, vecSetLen, vecAng, vecAng2 } from '@libs/geom/vectors';
 import { triangulate } from '@libs/triangulate/triangulate';
 import { area } from '@libs/geom/triangle';
 import uscore from 'underscore';
@@ -590,6 +590,98 @@ function _vertNormal(__model__: GIModel, index: number) {
     const wire_i: number = __model__.modeldata.geom.nav.navEdgeToWire(edges_i[0]);
     norm_vec = __model__.modeldata.geom.query.getWireNormal(wire_i);
     return norm_vec;
+}
+// ================================================================================================
+export enum _EAngelMethod {
+    INNER_ANGLE = 'inner_angle',
+    OUTER_ANGLE = 'outer_angle',
+    MIN_ANGLE = 'min_angle'
+}
+/**
+ * Returns an angle in radians between the two edges connected to a vertex.
+ * If the vertex does not have two edges, then null is returned.
+ *
+ * Given a single vertex, a single angle will be returned. Given a list of vertices, a list of angles will be returned.
+ *
+ * Given any entity that has vertices (collection, polygons, polylines, wires, and edges),
+ * a list of vertices will be extracted, and a list of angles will be returned.
+ *
+ * @param __model__
+ * @param entities Single or list of vertices, or any entity from which vertices can be extracted.
+ * @param method Enum, the method for calculating the vertex angle.
+ * @returns The angle between the two edges for the vertex.
+ */
+export function Angle(__model__: GIModel, entities: TId | TId[], method: _EAngelMethod): number | number[] {
+    if (isEmptyArr(entities)) { return []; }
+    // --- Error Check ---
+    const fn_name = 'calc.Angle';
+    let ents_arrs: TEntTypeIdx | TEntTypeIdx[];
+    if (__model__.debug) {
+        ents_arrs = checkIDs(__model__, fn_name, 'entities', entities,
+            [ID.isID, ID.isIDL1],
+            [EEntType.COLL, EEntType.PGON, EEntType.PLINE, EEntType.WIRE, EEntType.EDGE, EEntType.VERT]) as TEntTypeIdx | TEntTypeIdx[];
+    } else {
+        ents_arrs = idsBreak(entities) as TEntTypeIdx | TEntTypeIdx[];
+    }
+    // --- Error Check ---
+    if (method === _EAngelMethod.MIN_ANGLE) {
+        return _angle(__model__, ents_arrs, method, null, null);
+    }
+    const pgon_normals: Map<number, Txyz> = new Map();
+    const pline_normals: Map<number, Txyz> = new Map();
+    return _angle(__model__, ents_arrs, method, pgon_normals, pline_normals);
+}
+function _angle(__model__: GIModel, ents_arrs: TEntTypeIdx | TEntTypeIdx[], method: string, pgon_normals: Map<number, Txyz>, pline_normals: Map<number, Txyz>): number | number[] {
+    if (getArrDepth(ents_arrs) === 1) {
+        const [ent_type, index]: [EEntType, number] = ents_arrs as TEntTypeIdx;
+        if (ent_type === EEntType.VERT) {
+            const edges_i: number[] = __model__.modeldata.geom.nav.navVertToEdge(index);
+            if (edges_i.length !== 2) { return null; }
+            const verts0_i: number[] = __model__.modeldata.geom.nav.navEdgeToVert(edges_i[0]);
+            const verts1_i: number[] = __model__.modeldata.geom.nav.navEdgeToVert(edges_i[1]);
+            const start0: Txyz = __model__.modeldata.attribs.posis.getVertCoords(verts0_i[0]);
+            const end0: Txyz = __model__.modeldata.attribs.posis.getVertCoords(verts0_i[1]);
+            const start1: Txyz = __model__.modeldata.attribs.posis.getVertCoords(verts1_i[0]);
+            const end1: Txyz = __model__.modeldata.attribs.posis.getVertCoords(verts1_i[1]);
+            const vec0: Txyz = vecFromTo(end0, start0);
+            const vec1: Txyz = vecFromTo(start1, end1);
+            if (method === _EAngelMethod.MIN_ANGLE) {
+                return vecAng(vec0, vec1) as number;
+            } else {
+                const wire_i: number = __model__.modeldata.geom.nav.navEdgeToWire(edges_i[0]);
+                let normal: Txyz = null;
+                const wire_type: EWireType = __model__.modeldata.geom.query.getWireType(wire_i);
+                if (wire_type === EWireType.PLINE) {
+                    if (pline_normals.has(wire_i)) {
+                        normal = pline_normals.get(wire_i);
+                    } else {
+                        normal = __model__.modeldata.geom.query.getWireNormal(wire_i);
+                        pline_normals.set(wire_i, normal);
+                    }
+                } else if (wire_type === EWireType.PGON || wire_type === EWireType.PGON_HOLE) {
+                    if (pgon_normals.has(wire_i)) {
+                        normal = pgon_normals.get(wire_i);
+                    } else {
+                        normal = __model__.modeldata.geom.query.getWireNormal(wire_i);
+                        pline_normals.set(wire_i, normal);
+                    }
+                }
+                if (method === _EAngelMethod.INNER_ANGLE) {
+                    return vecAng2(vec1, vec0, normal) as number;
+                } else {
+                    return (2 * Math.PI) - vecAng2(vec1, vec0, normal) as number;
+                }
+            }
+        } else {
+            const verts_i: number[] = __model__.modeldata.geom.nav.navAnyToVert(ent_type, index);
+            const verts: TEntTypeIdx[] = verts_i.map(vert_i => [EEntType.VERT, vert_i] as [EEntType, number]);
+            return verts.map(vert => _angle(__model__, vert, method, pgon_normals, pline_normals)) as number[];
+        }
+    } else {
+        const angs: number[] =
+            (ents_arrs as TEntTypeIdx[]).map(ents_arr => _angle(__model__, ents_arr, method, pgon_normals, pline_normals)) as number[];
+        return uscore.flatten(angs);
+    }
 }
 // ================================================================================================
 /**
